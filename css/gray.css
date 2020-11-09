@@ -1,19 +1,14 @@
 /*主题样式css开始*/
-	
 * {
 	margin: 0;
 	padding: 0;
 }
-
 
 html {
 	/* 整站黑白 */
 	/*filter:progid:DXImageTransForm.Microsoft.BasicImage(grayscale=1);
 	-webkit-filter: saturate(0);*/
 }
-
-/* 使用自定义字体 */
-
 
 body {
 	background: #FFF;
@@ -41,9 +36,6 @@ a,.reward-button {
 	height: 5px;
 }
 
-/*ol li {
-	list-style:decimal;
-}*/
 ul li {
 	list-style-type: square;
 }
@@ -660,6 +652,7 @@ nav ul li a {
 .archive-title {
 	display: block;
 	color: #009FD9;
+	padding-top: 20px;
 	text-align: center;
 	font-size: 26px;
 }
