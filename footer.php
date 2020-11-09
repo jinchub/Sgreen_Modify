@@ -60,27 +60,7 @@ setInterval("scroll()", 500);
 <?php if ($this->options->Gress== 'able'): ?>
 <?php endif; ?>
 
-<?php if ($this->options->baiduJavaScript == 'disable'): ?>
-<script src="<?php $this->options->themeUrl('js/jquery.min.js'); ?>"></script>
 <?php endif; ?>
-
-<?php if ($this->options->baiduJavaScript == 'able'): ?>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<?php endif; ?>
-
-<script>
-    $('body').show();
-    $('.version').text(NProgress.version);
-    NProgress.start();
-    setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 1000);
-
-    $("#b-0").click(function() { NProgress.start(); });
-    $("#b-40").click(function() { NProgress.set(0.4); });
-    $("#b-inc").click(function() { NProgress.inc(); });
-    $("#b-100").click(function() { NProgress.done(); });
-</script>
-<?php endif; ?>
-
 <?php if ($this->options->Demo== 'able'): ?>
 <script>
 $(function(){
