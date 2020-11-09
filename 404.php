@@ -4,14 +4,7 @@
 <meta name="viewport" content="width=device-width,user-scalable=no">
 <title>页面没找到 - <?php $this->options->title() ?>
 </title>
-<!--[if lt IE 9]>
-    <script src="<?php $this->options->themeUrl('404/404.js'); ?>"></script>
-    <![endif]-->
-<link rel="stylesheet" href="./css/404.min.css">
-<script type="text/javascript" src="./js/jquery.min.js"></script>
-<script type="text/javascript" src="./js/404/three.js"></script>
-<script type="text/javascript" src="./js/404/shui.js"></script>
-
+<link rel="stylesheet" href="<?php $this->options->themeUrl('css/404.min.css'); ?>">
 </head>
 <body ondragstart="return false;">
 <div class="body404 Snow">
