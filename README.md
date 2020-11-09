@@ -1,2 +1,2 @@
 # Sgreen_Modify
-Typecho_Sgreen 在此主题上修改版本
+在 https://github.com/yiyeticms/typecho_Sgreen 主题上修改的版本
