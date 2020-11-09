@@ -91,7 +91,7 @@ swal({
 <?php if ($this->options->Ipc== 'able'): ?>
 <a target="_blank" href="<?php $this->options->ipcurl() ?>" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="<?php $this->options->themeUrl('img/icp.png'); ?>" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 0px;"><?php $this->options->ipc() ?></p></a><br>
     <?php endif; ?>
-    | Copyright &copy; 2016-2020 <a href="<?php $this->options->siteUrl(); ?>">
+    | Copyright &copy; 2020 <a href="<?php $this->options->siteUrl(); ?>">
     <?php $this->options->title() ?>
     </a><br>
     <a target="_blank" href="http://typecho.org/">Typecho</a>🍹<a href="https://github.com/yiyeticms/typecho_Sgreen" target="_blank">Sgreen</a>
