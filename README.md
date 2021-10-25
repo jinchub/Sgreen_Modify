@@ -14,4 +14,5 @@
 
 #### 顶部天气使用的心知天气，到心知天气注册账号，申请免费版，配置下新版天气插件，然后把生成的代码放到header.php文件注释说明区域中即可
 
-![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot.png)
+![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/github.png)
+
