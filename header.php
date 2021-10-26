@@ -48,6 +48,7 @@
 </head>
 <!-- 正文 -->
 <body onLoad="startTime()">
+<!-- 背景彩带 -->	
 <script src="<?php $this->options->themeUrl('js/ribbon.min.js'); ?>"></script>
 <header>
 <!-- 顶部时间 -->
