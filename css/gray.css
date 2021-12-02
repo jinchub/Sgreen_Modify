@@ -12,6 +12,16 @@
     font-weight: normal;
 }
 @font-face {
+    font-family: "piaomiao";
+    src: url("./fonts/lspmf/lspmf.eot"); /* IE9 */
+    src: url("./fonts/lspmf/lspmf.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/lspmf/lspmf.woff") format("woff"), /* chrome、firefox */
+    url("./fonts/lspmf/lspmf.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("./fonts/lspmf/lspmf.svg#lspmf") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
     font-family: "time";
     src: url("./fonts/time/time.eot"); /* IE9 */
     src: url("./fonts/time/time.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -22,6 +32,17 @@
     font-weight: normal;
 }
 	
+@font-face {
+    font-family: "lc";
+    src: url("./fonts/gonggao/lc.eot"); /* IE9 */
+    src: url("./fonts/gonggao/lc.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/gonggao/lc.woff") format("woff"), /* chrome、firefox */
+    url("./fonts/gonggao/lc.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("./fonts/gonggao/lc.svg#lc") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
 @font-face {
     font-family: "hwxk";
     src: url("./fonts/hwxk/hwxk.eot"); /* IE9 */
@@ -212,7 +233,7 @@ width:100%;
 	margin-top: 25px;
 	z-index:-1;
     filter: drop-shadow(0px 0px 6px #bdbdbd);
-	/*background: url(../img/bz.jpg) fixed center;*/
+	/*background: url(/img/bz.jpg) fixed center;*/
 }
 
 content .article {
@@ -453,7 +474,7 @@ nav ul li {
 	height: 28px;
 	list-style: none;
 	border: 0;
-	background: url(../img/nav.png) no-repeat;
+	background: url(https://me.jinchuang.org/img/nav.png) no-repeat;
 	background-position: 0px 4px;
         }
 
@@ -767,7 +788,7 @@ nav ul li a {
 	filter: drop-shadow(0px 0px 2px #d0d0d0) !important;
 	transform: translateX(20px) scale(1.2) !important;
 	transition: ease all 0.5s !important;
-	color: #FF9800 !important;
+	color: #F97300 !important;
 	background: rgba(255,202,124,0.2);
 	padding: 0px 40px;
 	border-radius: 10px;
@@ -858,6 +879,24 @@ footer a:hover{
     color: red;
     transition: all ease 0.5s;
 }
+.fotlink{
+    width: 13px;
+    position: relative;
+    top: 2px;
+    filter: drop-shadow(0px 0px 4px #aaa);
+    transition: all ease 1s;
+}
+.fotlink:hover{
+    filter: drop-shadow(0px 4px 4px #009fd9);
+    transition: all ease 1s;
+}
+.fottb{
+}
+.fotdt,.fotba{
+    top: 6px;
+    position: relative;
+}
+
 .toTop {
 	z-index: 1000;
 	position: fixed;
@@ -911,7 +950,8 @@ a,u {
 }
 
 body {
-	background:url(../img/bz.jpg) fixed center;
+	background:url(/img/bz.jpg) fixed center;
+	/*background:url(/img/bg.png) fixed center;*/
 	background-size:100%;
 	color: #333;
 	font-size: 12px;
@@ -1540,11 +1580,13 @@ button, input, textarea {
 }
 
 .duan_cu {
-	font-size: 14px;
-	padding: 2px 0px;
+	font-size: 0.94rem;
 	line-height: 20px;
 	font-weight:bold;
-	text-shadow: 1px 0px gainsboro;
+	border: 4px solid #0b9a8d;
+	border-radius: 10px;
+	padding: 10px;
+	color: #0b9a8d;
 }
 .duan_cu_s {
 	font-size: 13px;
@@ -1563,6 +1605,7 @@ button, input, textarea {
 	line-height: 14px;
 	margin-bottom: 5px;
 	font-weight:bold;
+	margin-top:14px;
 }
 .duan_s {
 	padding: 0px 6px;
@@ -1907,7 +1950,7 @@ margin-left: 5px;
     padding: 4px 35px 4px 35px;
     box-shadow: 0px 0px 15px 0px #55B4FF;
     transform: scale(1.1);
-    background-image: url(../img/hua.gif) !important;
+    background-image: url(https://me.jinchuang.org/Gallery/images/hua.gif) !important;
     background-position:center !important;
     background-size: cover !important;
     -webkit-transition: all 0.5s ease;
@@ -1925,7 +1968,7 @@ margin-left: 5px;
     padding: 4px 35px 4px 35px;
     box-shadow: 0px 0px 15px 0px #55B4FF;
     transform: scale(1.1);
-    background-image: url(../img/hua.gif) !important;
+    background-image: url(https://me.jinchuang.org/Gallery/images/hua.gif) !important;
     background-position-y:60px !important;
     background-size: cover !important;
     -webkit-transition: all 0.5s ease;
@@ -1943,7 +1986,7 @@ margin-left: 5px;
     padding: 4px 35px 4px 35px;
     box-shadow: 0px 0px 15px 0px #55B4FF;
     transform: scale(1.1);
-    background-image: url(../img/hua.gif) !important;
+    background-image: url(https://me.jinchuang.org/Gallery/images/hua.gif) !important;
     background-position-x:60px !important;
     background-size: cover !important;
     -webkit-transition: all 0.5s ease;
@@ -1961,7 +2004,7 @@ margin-left: 5px;
     padding: 4px 35px 4px 35px;
     box-shadow: 0px 0px 15px 0px #55B4FF;
     transform: scale(1.1);
-    background-image: url(../img/hua.gif) !important;
+    background-image: url(https://me.jinchuang.org/Gallery/images/hua.gif) !important;
     background-position:90px 10px !important;
     background-size: cover !important;
     -webkit-transition: all 0.5s ease;
@@ -1979,7 +2022,7 @@ margin-left: 5px;
     padding: 4px 35px 4px 35px;
     box-shadow: 0px 0px 15px 0px #55B4FF;
     transform: scale(1.1);
-    background-image: url(../img/hua.gif) !important;
+    background-image: url(https://me.jinchuang.org/Gallery/images/hua.gif) !important;
     background-position:-35px 20px !important;
     background-size: cover !important;
     -webkit-transition: all 0.5s ease;
@@ -1997,7 +2040,7 @@ margin-left: 5px;
     padding: 4px 35px 4px 35px;
     box-shadow: 0px 0px 15px 0px #55B4FF;
     transform: scale(1.1);
-    background-image: url(../img/hua.gif) !important;
+    background-image: url(https://me.jinchuang.org/Gallery/images/hua.gif) !important;
     background-position:60px 50px !important;
     background-size: cover !important;
     -webkit-transition: all 0.5s ease;
@@ -2124,6 +2167,7 @@ table th {
  /*背景色*/
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+color:white;
 }
 
 table tbody tr:nth-child(2n) {
@@ -2159,8 +2203,9 @@ tr{}
 	transform: translateY(1px);
 }
 .i4{
-	color:#ffeb3b !important;
+
 	transform: translateY(0px) !important;
+
 }
 .fa-lg{
     font-size: 1.4em !important;
@@ -2464,23 +2509,111 @@ i:hover {
 		bottom: 100%;
 	}
 }
-/* 天气 */
+/* 心知天气 */
 #tp-weather-widget .sw-container {
-  left: unset;
-  right: 190px;
-  bottom: unset;
-position:absolute;
+    left: unset;
+    right: 190px;
+    bottom: unset;
+    position:absolute;
 }
 .EKHJj{
-margin-top:10px;
+    margin-top:10px;
 }
 .idzueu{
-margin:1px 8px !important;
+    margin:1px 8px !important;
 }
 .icon-background-alarmCircle{
-margin:0px 4px !important;
+    margin:0px 4px !important;
 }
-.sw-bar-slim{color:white !important}
+.sw-bar-slim{
+    color:white !important
+}
+.gBTmdH{
+    left:-60px !important;
+}
+.jEbFAF{
+    left:-60px !important;
+}
+.ihAeOA{
+    width:320px !important;
+    background: rgba(0,159,217,0.4) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0,159,217,0.4) 0px 2px 15px !important;
+}
+.gTyFGf{
+    width:320px !important;
+    background: rgba(0,159,217,0.4) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0,159,217,0.4) 0px 2px 15px !important;
+}
+.gEPbpr{
+    width:320px !important;
+    background: rgba(0,159,217,0.4) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0,159,217,0.4) 0px 2px 15px !important;
+}
+.hWtwV{
+    width:320px !important;
+    background: rgba(0,159,217,0.4) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0,159,217,0.4) 0px 2px 15px !important;
+}
+@media screen and (max-width: 600px){
+.ihAeOA,.gTyFGf,.gEPbpr,.hWtwV {
+    width: 100% !important;
+}
+}
+
+.jCzPjW{
+    margin:4px 0px !important;
+}
+/*寒潮*/
+.jhwbjs,.dGahrl {
+    position: relative;
+    height: 30px;
+    left: 0 !important;
+    animation: 8s linear 0s infinite normal forwards running changebox !important;
+}
+/*大风*/
+.fHgEDb {
+    position: relative;
+    height: 30px;
+    left: 0 !important;
+    animation: 8s linear 0s infinite normal forwards running changebox !important;
+}
+.OeVeF{
+    flex:1 0 0;
+    text-align:center;
+}
+.eBcdRn{
+    text-align:center;
+}
+.jQorrF{
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-evenly !important;
+}
+.OeVeF::before, .OeVeF::after{
+    background:none !important;
+}
+.bcxaVF{
+    font-size:1rem !important;
+}
+.fyUtqy{
+    box-shadow:none !important;
+    filter: drop-shadow(2px 4px 6px #009fd9);
+}
+.hNWUPd{
+    margin-bottom:5px;
+}
+.emBiRU{
+    display:none !important;
+}
+@media screen and (max-width: 768px){
+.jEbFAF{
+    left:0px !important;
+}
+}
 /* 福 */
 .fu{
 	position: fixed;
@@ -2667,4 +2800,9 @@ box-shadow: 0 0 15px #d6d6d6;
 .ioo:hover{
     transition: .5s transform;
     transform: scale(1.15);
+}
+/* 关于页面 */
+.about-t1,.about-t2,.about-t3,.about-t4{
+color: #009fd9;
+font-weight:bold;
 }
