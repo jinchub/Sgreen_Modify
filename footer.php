@@ -101,10 +101,10 @@ swal({
     </a>  ·
     <a href="https://curl.qcloud.com/FEdmGLJC" target="_blank" title="腾讯云">
         <img class="fotlink" src="https://cloud.tencent.com/favicon.ico"/>
-    </a>  ·
+    </a>
     <!-- 网站地图 -->
     <?php if ($this->options->Webdt== 'able'): ?>
-        <a href="<?php $this->options->zddt() ?>" target="_blank" title="站点地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/zd.png'); ?>"/></a> ·
+     ·  <a href="<?php $this->options->zddt() ?>" target="_blank" title="站点地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/zd.png'); ?>"/></a> ·
         <a href="<?php $this->options->wzdt() ?>" target="_blank" title="网站地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/wz.png'); ?>"/></a> ·
         <a href="/feed" target="_blank" title="RSS"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/rss.png'); ?>"/></a>
     </span>
