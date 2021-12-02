@@ -110,7 +110,7 @@ swal({
     </span>
     <?php endif; ?>
 	<br><span class="fotba">
-    Copyright © 2016 - <?php echo date('Y'); ?>
+    Copyright ©  <?php echo date('Y'); ?>
     <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
     <!-- icp备案 -->
     <?php if ($this->options->Icp== 'able'): ?>
