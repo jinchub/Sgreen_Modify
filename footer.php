@@ -89,34 +89,41 @@ swal({
 
 <footer>
 <div style="padding-top: 15px;">
+    <span class="fottb">
+    <a target="_blank" href="http://typecho.org/" title="typecho博客">
+        <img class="fotlink" src="<?php $this->options->themeUrl('img/footer/typecho.png'); ?>"/>
+    </a>  ·
+    <a href="https://github.com/boyshu/typecho_Sgreen" target="_blank" title="Sgreen主题">
+        <img class="fotlink" src="<?php $this->options->themeUrl('img/footer/theme.png'); ?>"/>
+    </a>  ·
+    <a href="https://s.qiniu.com/3IvEfq" target="_blank" title="七牛云">
+        <img class="fotlink" src="https://www.qiniu.com/favicon.ico"/>
+    </a>  ·
+    <a href="https://curl.qcloud.com/FEdmGLJC" target="_blank" title="腾讯云">
+        <img class="fotlink" src="https://cloud.tencent.com/favicon.ico"/>
+    </a>  ·
     <!-- 网站地图 -->
     <?php if ($this->options->Webdt== 'able'): ?>
-        <a href="<?php $this->options->zddt() ?>" target="_blank">站点地图</a>
-        <a href="<?php $this->options->wzdt() ?>" target="_blank">网站地图</a>
-        <a href="/feed" target="_blank">RSS Feed</a>
+        <a href="<?php $this->options->zddt() ?>" target="_blank" title="站点地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/zd.png'); ?>"/></a> ·
+        <a href="<?php $this->options->wzdt() ?>" target="_blank" title="网站地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/wz.png'); ?>"/></a> ·
+        <a href="/feed" target="_blank" title="RSS"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/rss.png'); ?>"/></a>
+    </span>
     <?php endif; ?>
-	<br>
+	<br><span class="fotba">
+    Copyright © 2016 - <?php echo date('Y'); ?>
+    <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
     <!-- icp备案 -->
     <?php if ($this->options->Icp== 'able'): ?>
         <a href="https://beian.miit.gov.cn/" target="_blank"><?php $this->options->icp() ?></a> 
     <?php endif; ?>
-	
     <!-- 公安备案号 -->
     <?php if ($this->options->Gongan== 'able'): ?>
         <a target="_blank" href="<?php $this->options->gonganurl() ?>" style="display:inline-block;text-decoration:none;height:13px;line-height:20px;">
-            <img src="<?php $this->options->themeUrl('img/gongan.png'); ?>" style="width:16px;float:left;"/>
+            <img src="<?php $this->options->themeUrl('img/footer/gongan.png'); ?>" style="width:16px;float:left;"/>
             <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 0px;"><?php $this->options->gongan() ?></p>
-        </a>
+        </a></span>
     <?php endif; ?>
-
-	
-    <a target="_blank" href="http://typecho.org/">Typecho</a>
-    🍹
-    <a href="https://github.com/boyshu/typecho_Sgreen" target="_blank">Sgreen</a>
     <br>
-    Copyright © 2016 - <?php echo date('Y'); ?>
-    <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
-    . All Rights Reserved.
 </div>
   <?php $this->footer(); ?>
 </footer>
