@@ -93,7 +93,7 @@ swal({
     <a target="_blank" href="http://typecho.org/" title="typecho博客">
         <img class="fotlink" src="<?php $this->options->themeUrl('img/footer/typecho.png'); ?>"/>
     </a>  ·
-    <a href="https://github.com/boyshu/typecho_Sgreen" target="_blank" title="Sgreen主题">
+    <a href="https://github.com/jinchub/Sgreen_Modify" target="_blank" title="Sgreen主题">
         <img class="fotlink" src="<?php $this->options->themeUrl('img/footer/theme.png'); ?>"/>
     </a>  ·
     <a href="https://s.qiniu.com/3IvEfq" target="_blank" title="七牛云">
