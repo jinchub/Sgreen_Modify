@@ -864,9 +864,6 @@ footer {
 	color: #009FD9;
 	text-align: center;
 	font-size: 12px;
-	/*background: url(/img/footer.png) center;
-	background-repeat-y: no-repeat;
-	background-attachment: local;*/
 	max-width: 100%;
 	height: 90px;
 	user-select:none;
@@ -950,8 +947,7 @@ a,u {
 }
 
 body {
-	background:url(/img/bz.jpg) fixed center;
-	/*background:url(/img/bg.png) fixed center;*/
+	background:url(../img/bz.jpg) fixed center;
 	background-size:100%;
 	color: #333;
 	font-size: 12px;
