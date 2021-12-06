@@ -3,12 +3,12 @@
  * 这是一款小清新绿色Typecho主题。
  * ↓
  * [在此主题基础上做修改]
- * ↓
- * 二次修改 ：靳闯 
+ * 二次修改 ：靳闯博客
+ * ↑
  * @package Sgreen Theme 
  * @author 一夜涕
  * @version 3.0
- * @link http://yiyeti.cc
+ * @link https://www.boyhu.cn/
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
