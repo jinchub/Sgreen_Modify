@@ -67,10 +67,6 @@ $(function () {
 });
 </script>
 </span>
-<!-- 顶部心知天气 -->
-<!--
-使用心知天气说明，去注册个账号，申请免费版，然后配置新版插件，把生成的代码放到这里即可使用 
--->
 <!-- 头部内容 -->
 <div class="main">
 	<div class="intro">
@@ -86,11 +82,12 @@ $(function () {
 			<?php $this->options->description() ?>
 		</span>
 		<span class="social">
-			<!--<a href="<?php $this->options->qqlink(); ?>" target="_blank">
-				<i class="i1 fa fa-qq"></i>
-			</a>-->
+
 			<a style="display:none" target="_self" title="公告" href="javascript:;" id="demo">网站公告
 				<i style="font-size:16px" class="i3 fa fa-volume-up"></i>
+			</a>
+			<a href="<?php $this->options->qqlink(); ?>" target="_blank">
+				<i class="i1 fa fa-qq"></i>
 			</a>
 			<a href="<?php $this->options->mlink(); ?>" target="_blank">
 				<i class="i2 fa fa-envelope"></i>
@@ -101,7 +98,9 @@ $(function () {
 			<a href="<?php $this->options->qzlink(); ?>" target="_blank">
 				<i class="i4 fa fa-music fa-lg"></i>
 			</a>
-			<!-- <a href="<?php $this->options->wlink(); ?>" target="_blank"><i style="color:#fdb205" class="iconfont icon-weibo"></i></a>-->
+			<a href="<?php $this->options->wlink(); ?>" target="_blank">
+				<i class="i5 fa fa-weibo fa-lg"></i>
+			</a>
 
 		</span>
 	</div>
@@ -141,7 +140,7 @@ $(function () {
 				<?php endwhile; ?>
 				</ul>
 			</nav>
-
+</div>
 <!-- 波浪样式 -->
 <div ondragstart="return false;" class="wave-box">
 	<div class="marquee-box marquee-up" id="marquee-box">
@@ -173,5 +172,5 @@ $(function () {
 		</div>
 	</div>
 </div>
-</div>
+
 </header>

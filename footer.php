@@ -52,7 +52,7 @@ var titleInfo = document.title;
 var firstInfo = titleInfo.charAt(0); 
 var lastInfo = titleInfo.substring(1, titleInfo.length); 
 document.title = lastInfo + firstInfo;} 
-setInterval("scroll()", 500000); 
+setInterval("scroll()", 5000); 
 </script>
 <?php endif; ?>
 
@@ -90,28 +90,33 @@ swal({
 <?php endif; ?>
 
 <footer>
-<div style="padding-top: 15px;">
-    <span class="fottb">
+<div class="fotn" style="padding-top: 15px;">
+<span class="fottb">
     <a target="_blank" href="http://typecho.org/" title="typecho博客">
-        <img class="fotlink" src="<?php $this->options->themeUrl('img/footer/typecho.png'); ?>"/>
+        <img class="fotlink typecho" src="<?php $this->options->themeUrl('img/footer/typecho.png'); ?>" oncontextmenu="return false;" ondragstart="return false;" />
     </a>  ·
-    <a href="https://github.com/jinchub/Sgreen_Modify" target="_blank" title="Sgreen主题">
-        <img class="fotlink" src="<?php $this->options->themeUrl('img/footer/theme.png'); ?>"/>
-    </a>  
+    <a href="https://github.com/boyshu/typecho_Sgreen" target="_blank" title="Sgreen主题">
+        <img class="fotlink" src="<?php $this->options->themeUrl('img/footer/theme.png'); ?>" oncontextmenu="return false;" ondragstart="return false;" />
+    </a>  ·
+    <a href="mailto:admin@jinchuang.org" target="_blank" title="联系我">
+        <img style="width:16px;top:3px" class="fotlink" src="<?php $this->options->themeUrl('img/footer/email.png'); ?>" oncontextmenu="return false;" ondragstart="return false;" />
+    </a>  ·
     <!-- 网站地图 -->
     <?php if ($this->options->Webdt== 'able'): ?>
-     ·  <a href="<?php $this->options->zddt() ?>" target="_blank" title="站点地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/zd.png'); ?>"/></a> ·
-        <a href="<?php $this->options->wzdt() ?>" target="_blank" title="网站地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/wz.png'); ?>"/></a> ·
-        <a href="/feed" target="_blank" title="RSS"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/rss.png'); ?>"/></a>
-    </span>
+        <a href="<?php $this->options->zddt() ?>" target="_blank" title="站点地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/zd.png'); ?>" oncontextmenu="return false;" ondragstart="return false;" /></a> ·
+        <a href="<?php $this->options->wzdt() ?>" target="_blank" title="网站地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/wz.png'); ?>" oncontextmenu="return false;" ondragstart="return false;" /></a> ·
+        <a href="/feed" target="_blank" title="RSS"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/rss.png'); ?>" oncontextmenu="return false;" ondragstart="return false;" /></a>
+<font class="cnzz"><script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1280865432&web_id=1280865432"></script></font>
+</span>
     <?php endif; ?>
 	<br><span class="fotba">
     Copyright ©  <?php echo date('Y'); ?>
     <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
     <!-- icp备案 -->
     <?php if ($this->options->Icp== 'able'): ?>
-        <a href="https://beian.miit.gov.cn/" target="_blank"><?php $this->options->icp() ?></a> 
+        <a style="user-select:all;" href="https://beian.miit.gov.cn/" target="_blank"><?php $this->options->icp() ?></a> 
     <?php endif; ?>
+	
     <!-- 公安备案号 -->
     <?php if ($this->options->Gongan== 'able'): ?>
         <a target="_blank" href="<?php $this->options->gonganurl() ?>" style="display:inline-block;text-decoration:none;height:13px;line-height:20px;">
