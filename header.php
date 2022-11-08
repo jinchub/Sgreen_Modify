@@ -82,7 +82,13 @@ $(function () {
 			<?php $this->options->description() ?>
 		</span>
 		<span class="social">
+<<<<<<< HEAD
 
+=======
+			<a href="<?php $this->options->qqlink(); ?>" target="_blank">
+				<i class="i1 fa fa-qq"></i>
+			</a>
+>>>>>>> 77c0ce3db08ffab7a9e8f9275e2e8829ecf629b2
 			<a style="display:none" target="_self" title="公告" href="javascript:;" id="demo">网站公告
 				<i style="font-size:16px" class="i3 fa fa-volume-up"></i>
 			</a>
