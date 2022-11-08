@@ -1403,10 +1403,10 @@ textarea.text-area {
 }
 
 .search-form {
-	color: rgba(86, 188, 228, 0.6);
+	color: #009dc3;
 	font-size: 14px;
 	display: inline-block;
-	border-bottom: 1px rgb(0,133,193,0.5) solid;
+	border-bottom: 1px #0078bf solid;
 	line-height: 30px;
 	border-radius: 10px;
 	border-top: 1px solid;
