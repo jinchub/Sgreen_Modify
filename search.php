@@ -37,7 +37,7 @@
   </small>
   <div class="article-content">
     <?php $this->excerpt(200, '...'); ?>
-    <p class="readmore"><a href="<?php $this->permalink() ?>">阅读全文</a></p>
+    <p class="readmore"><a href="<?php $this->permalink() ?>">▲</a></p>
   </div>
 </div>
 <?php endwhile; ?>

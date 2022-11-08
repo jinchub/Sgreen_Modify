@@ -53,6 +53,20 @@
 <header>
 <!-- 顶部时间 -->
 <span id="beijing" class="time" ></span>
+<!--时间-周-->
+<span class="week">
+<script>document.write("星期" + "日一二三四五六".charAt(new Date().getDay()))</script>
+</span>
+<!--时间-农历年-->
+<span class="solarlunar">
+<script src="https://img.jinchuang.org/typecho/js/ncalendar.js" type="text/javascript"></script>
+<script>
+$(function () {
+    var lunar = calendar.solar2lunar();
+    $('.solarlunar').html(''+'农历: '+lunar.gzYear +'年'+'&nbsp;&nbsp;'+ lunar.IMonthCn+lunar.IDayCn+'');
+});
+</script>
+</span>
 <!-- 顶部心知天气 -->
 <!--
 使用心知天气说明，去注册个账号，申请免费版，然后配置新版插件，把生成的代码放到这里即可使用 
@@ -75,8 +89,8 @@
 			<!--<a href="<?php $this->options->qqlink(); ?>" target="_blank">
 				<i class="i1 fa fa-qq"></i>
 			</a>-->
-			<a title="公告" href="javascript:;" id="demo">
-				<i style="font-size:16px" class="i3 fa fa-list-alt"></i>
+			<a style="display:none" target="_self" title="公告" href="javascript:;" id="demo">网站公告
+				<i style="font-size:16px" class="i3 fa fa-volume-up"></i>
 			</a>
 			<a href="<?php $this->options->mlink(); ?>" target="_blank">
 				<i class="i2 fa fa-envelope"></i>

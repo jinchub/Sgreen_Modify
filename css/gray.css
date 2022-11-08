@@ -2,16 +2,6 @@
 /*主题样式*/
 
 @font-face {
-    font-family: "longcang";
-    src: url("./fonts/longcang/longcang.eot"); /* IE9 */
-    src: url("./fonts/longcang/longcang.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */    
-    url("./fonts/longcang/longcang.woff") format("woff"), /* chrome、firefox */
-    url("./fonts/longcang/longcang.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-    url("./fonts/longcang/longcang.svg#longcang") format("svg"); /* iOS 4.1- */
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
     font-family: "time";
     src: url("./fonts/time/time.eot"); /* IE9 */
     src: url("./fonts/time/time.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -278,7 +268,6 @@ a:hover {
 	display: block;
 	font-weight: 400;
 	font-size: 30px;
-	font-family: 'longcang';
 }
 
 .intro-sitename a {
@@ -288,9 +277,8 @@ a:hover {
 .intro-siteinfo {
 	display: block;
 	color: #fff;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	opacity: 1;
-	font-family: longcang;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -313,7 +301,18 @@ a:hover {
 	display: block;
 	text-align: center;
 }
-
+#demo{
+    color:white;
+    font-weight: bold;
+    box-shadow: 0 0 1px 2px #ffffff;
+    border-radius: 4px;
+    padding: 2px 4px 0px 4px;
+    filter: drop-shadow(0px 0px 6px #a9f9fb);
+}
+#demo:hover{
+    color: #ffde00;
+    box-shadow: 0 0 1px 2px #ffde00;
+}
 @media screen and (max-width:767px) {
 	body {
 		position: relative;
@@ -355,7 +354,9 @@ a:hover {
 		-webkit-animation: show .3s;
 		animation: show .3s;
 		border-radius: 8px;
-		border: 1px dashed rgba(255,255,255,0.44)
+	        border: 1px solid rgba(255,255,255,0.44);
+                border-left: 0;
+                border-right: 0;
 	}
 
 	nav ul {
@@ -382,6 +383,8 @@ a:hover {
 		display: block;
 		color: #fff;
 		font-size: 16px;
+                font-size: 14px;
+                padding-right: 4px;
 		transition: all 0.8s ease;
 	}
 
@@ -720,22 +723,26 @@ nav ul li a {
 }
 
 .page-navigator a:hover {
-	background: #009fd9;
-	text-decoration: none;
-	color: #fff;
-	border-radius: 5px;
-	border: 1px solid #009fd9;
-	transition: all 0.6s ease;
+    background: #009fd9;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 0px #bdbdbd;
+    transition: all 0.3s ease;
+    cursor: url(../img/link.cur),auto;
 }
 
+
 .page-navigator a {
-	display: inline-block;
-	padding: 0 10px;
-	height: 30px;
-	line-height: 30px;
-	border-radius: 5px;
-	border: 1px solid;
-	transition: all 0.5s ease;
+    display: inline-block;
+    padding: 0 11px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+    background: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 0px #ebebeb;
 }
 
 .page-navigator li {
@@ -850,25 +857,52 @@ footer a{
     transition: all ease 0.5s;
 }
 footer a:hover{
-    color: red;
+    color: #009fd9;
     transition: all ease 0.5s;
 }
 .fotlink{
-    width: 13px;
+    width: 14px;
     position: relative;
     top: 2px;
     filter: drop-shadow(0px 0px 4px #aaa);
-    transition: all ease 1s;
+    transition: all ease 0.5s;
 }
 .fotlink:hover{
-    filter: drop-shadow(0px 4px 4px #009fd9);
-    transition: all ease 1s;
+    filter: drop-shadow(0px 4px 4px #0083d1);
+    transition: all ease 0.3s;
+    transform: scale(1.5);
 }
 .fottb{
 }
 .fotdt,.fotba{
     top: 6px;
     position: relative;
+}
+
+/* footer文字炫彩字体 */
+.fotba,.fotba>a{
+    transition: all ease 0.5s;
+    font-weight: 600;
+    /*font-family:'xfy';*/
+    color: #898989;
+    background: -webkit-linear-gradient(45deg, #39eef6, #0083d1, #ff8888, #5f2cf8, #bed5f5);
+-moz-linear-gradient(45 deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+-ms-linear-gradient(45 deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+    color: transparent;
+    /*设置字体颜色透明*/
+    -webkit-background-clip: text;
+    /*背景裁剪为文本形式*/
+    animation: ran 40s linear infinite;
+    /*动态10s展示*/
+    user-select:none;
+}
+@keyframes ran {
+    from {
+        backgroud-position: 0 0;
+    }
+    to {
+        background-position: 2000px 0;
+    }
 }
 
 .toTop {
@@ -912,20 +946,28 @@ a,u {
 }
 
 .readmore a:hover {
-	background: #009FD9;
-	color: #fff;
-	border-radius: 5px;
+    background: #009fd9;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    text-decoration: none;
+    transition: all ease .5s;
 }
 
 .readmore a {
-	padding: 0 10px;
-	color: #009FD9;
-	transition: all .5s;
+    padding: 6px 2px 6px 2px;
+    color: #009fd9;
+    transition: all .5s;
+    transform: rotate(90deg);
+    border: 1px solid;
+    border-radius: 25px;
+    transition: all ease .5s;
 }
 
 body {
-	background:url(../img/bz.jpg) fixed center;
-	background-size:100%;
+	/*background:url(../img/bz.jpg) fixed center;
+	background-size:100%;*/
+        background:white;
 	color: #333;
 	font-size: 12px;
 	-webkit-font-smoothing: antialiased;
@@ -933,16 +975,35 @@ body {
 	line-height: 1.8;
 }
 
+
 .time{
 	float: right;
 	font-size: 15px;
 	color: white;
 	font-family:'time';
 	position: relative;
-	right: 20px;
+	right: 60px;
 	top: 8px;
 }
-
+.week{
+	float: right;
+	font-size: 13px;
+	color: white;
+	font-family:'Date';
+	position: absolute;
+	right: 10px;
+	top: 9.5px;
+}
+.solarlunar{
+	float: right;
+	position: absolute;
+	right:10px;
+	top:30px;
+	font-size: 13px;
+	color: white;
+	font-family:'xfy','Date';
+z-index:20;
+}
 /**body:before {
     content: " ";
     position: fixed;
@@ -1574,26 +1635,24 @@ button, input, textarea {
 /*评论标题样式*/
 .ping1 {
 	color: #009fd9;
-	font-size: 16px;
+	font-size: 14px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border-left: 5px solid #009fd9;
 	padding-left: 8px;
 	user-select: none;
 	margin-bottom:10px;
-    font-family: 'longcang';
 }
 
 .ping2 {
 	color: #009fd9;
-	font-size: 16px;
+	font-size: 14px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border-left: 5px solid #009fd9;
 	padding-left: 8px;
 	margin: 10px 0px;
 	user-select: none;
-    font-family: 'longcang';
 }
 
 /*表格css样式*/
@@ -1678,23 +1737,23 @@ tr{}
 
 .i1:hover {
 	border-radius: 50%;
-	transform: scale(1.2) translateY(3px);
+	transform: scale(1.1);
 	transition: ease 0.3s;
 }
 .i2:hover {
 	border-radius: 50%;
-	transform: scale(1.2) translateY(3px);
+	transform: scale(1.1);
 	transition: ease 0.3s;
 }
 .i3:hover {
 	border-radius: 50%;
-	transform: scale(1.2) translateY(3px);
+	transform: scale(1.1);
 	transition: ease 0.3s;
 }
 .i4:hover {
 	color:#ffc107 !important;
 	border-radius: 50%;
-	transform: scale(1.2) translateY(3px) !important;
+	transform: scale(1.1) !important;
 	transition: ease 0.3s;
 }
 .i1:hover,.i2:hover,.i3:hover,.i4:hover{
@@ -1755,8 +1814,8 @@ i:hover {
 }
 
 .lixue{
-	font-family: 'longcang';
-	font-size: 18px;
+        font-weight:600;
+	font-size: 14px;
 	transform: skewX(2deg);
 }
 

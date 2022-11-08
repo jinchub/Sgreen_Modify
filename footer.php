@@ -52,7 +52,7 @@ var titleInfo = document.title;
 var firstInfo = titleInfo.charAt(0); 
 var lastInfo = titleInfo.substring(1, titleInfo.length); 
 document.title = lastInfo + firstInfo;} 
-setInterval("scroll()", 500); 
+setInterval("scroll()", 500000); 
 </script>
 <?php endif; ?>
 
@@ -73,16 +73,18 @@ setInterval("scroll()", 500);
 <?php if ($this->options->Demo== 'able'): ?>
 <script>
 $(function(){
-	$("#demo").click(function(){
+var gonggao= document.getElementById("demo");
+gonggao.style.cssText="display:inline-table;";
+$("#demo").click(function(){
 swal({   
-			title: " 网站公告",   
-			text: "<?php $this->options->jrxq() ?>",   
-			imageUrl: "",
-			html: true,
-			timer: 5000,   
-			showConfirmButton: false
-	});
-	});
+	title: " 网站公告栏 ",   
+	text: "<?php $this->options->jrxq() ?>",   
+	imageUrl: "",
+	html: true,
+	timer: 5000000,   
+	showConfirmButton: true
+});
+});
 });
 </script>
 <?php endif; ?>
@@ -95,13 +97,7 @@ swal({
     </a>  ·
     <a href="https://github.com/jinchub/Sgreen_Modify" target="_blank" title="Sgreen主题">
         <img class="fotlink" src="<?php $this->options->themeUrl('img/footer/theme.png'); ?>"/>
-    </a>  ·
-    <a href="https://s.qiniu.com/3IvEfq" target="_blank" title="七牛云">
-        <img class="fotlink" src="https://www.qiniu.com/favicon.ico"/>
-    </a>  ·
-    <a href="https://curl.qcloud.com/FEdmGLJC" target="_blank" title="腾讯云">
-        <img class="fotlink" src="https://cloud.tencent.com/favicon.ico"/>
-    </a>
+    </a>  
     <!-- 网站地图 -->
     <?php if ($this->options->Webdt== 'able'): ?>
      ·  <a href="<?php $this->options->zddt() ?>" target="_blank" title="站点地图"><img class="fotlink" src="<?php $this->options->themeUrl('img/footer/zd.png'); ?>"/></a> ·

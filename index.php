@@ -47,7 +47,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         <?php if ($this->options->Abstract == 'disable'): ?>
         <?php $this->content(''); ?>
         <?php endif; ?></div>
-        <p class="readmore"><a href="<?php $this->permalink() ?>">阅读全文</a></p>
+        <p class="readmore"><a href="<?php $this->permalink() ?>">▲</a></p>
       </div>
     </div>
     <?php endwhile; ?>

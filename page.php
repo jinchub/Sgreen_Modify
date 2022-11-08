@@ -3,7 +3,7 @@
 <content>
   <div class="main box">
     <div class="article">
-      <div class="article-title" style="font-family:'longcang';">
+      <div class="article-title">
         <?php $this->title() ?>
       </div>
       <div class="article-content">
