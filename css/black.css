@@ -262,13 +262,14 @@ a:hover {
 */
 }
 .intro-logo:hover{
-	filter: drop-shadow(2px 4px 4px #1ccff9);
+	filter: drop-shadow(2px 4px 4px rgba(255,255,255,0.4));
 }
 
 .intro-sitename {
 	display: block;
-	font-weight: 400;
-	font-size: 30px;
+	font-weight: 600;
+    	font-size: 26px !important;
+    	letter-spacing: 4px;
 }
 
 .intro-sitename a {
@@ -278,7 +279,7 @@ a:hover {
 .intro-siteinfo {
 	display: block;
 	color: #fff;
-	font-size: 1rem;
+	font-size: 15px;
 	opacity: 1;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -842,6 +843,7 @@ header {
 	background: #000000;
 	height: 415px;
 	user-select: none;
+	font-family: "youyuan";
 }
 
 
