@@ -18,8 +18,5 @@
 #### 网站外观配色样式
 修改的样式默认为【舒心蓝】配色，其他配色样式未修改，如需请自行修改css文件样式
 
-#### 顶部天气：
-使用的心知天气，到心知天气注册账号，申请免费版，配置下新版天气插件，然后把生成的代码放到header.php文件注释说明区域中即可
-
-![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/demo.jpg)
+![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/demo.png)
 
