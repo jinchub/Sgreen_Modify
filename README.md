@@ -17,9 +17,9 @@
 #### 标签和归档：
 创建页面时候在右边模块那里选择对应模块即可
 
-#### 2022-11-08: 统一所有外观配色样式
+#### 2022-11-08更新: 统一所有外观配色样式
 默认配色为:【舒心蓝】<br>
-<font style="color:red">注意: 其他外观配色没有波浪条动画</font>
+注意: 其他外观配色没有波浪条动画
 
 ![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/demo.png)
 
