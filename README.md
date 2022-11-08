@@ -1,6 +1,8 @@
 # Sgreen_Modify
 在 [typecho_Sgreen](https://github.com/yiyeticms/typecho_Sgreen) 主题上修改的版本
 
+本主题适用于 typecho 博客系统
+
 演示地址：https://me.jinchuang.org
 
 ### Sgreen主题二次修改使用说明：
