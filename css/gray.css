@@ -509,7 +509,7 @@ nav ul li a {
 }
 
 .article-title a:hover {
-	background: #009FD9;
+	background: #0083d1;
 	color: #fff;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -520,7 +520,7 @@ nav ul li a {
 
 .article-title {
 	text-align: center;
-	color: #009FD9;
+	color: #0083d1;
 	font-weight: 700;
 	font-size: 22px;
 }
@@ -583,7 +583,7 @@ nav ul li a {
 	margin: 0 10px;
 	padding: 0 10px;
 	line-height: 30px;
-	color: #009fd9;
+	color: #0083d1;
 }
 
 .pagination span {
@@ -634,7 +634,7 @@ nav ul li a {
 }
 
 .post-nav .next:hover,.post-nav .prev:hover {
-    filter: drop-shadow(0px 0px 5px #009fd9);
+    filter: drop-shadow(0px 0px 5px #0083d1);
 }
 
 
@@ -717,12 +717,12 @@ nav ul li a {
 
 .page-navigator .current a {
 	color: #fff;
-	background: #009fd9;
-	border: 1px solid #009fd9;
+	background: #0083d1;
+	border: 1px solid #0083d1;
 }
 
 .page-navigator a:hover {
-    background: #009fd9;
+    background: #0083d1;
     text-decoration: none;
     color: #fff;
     border-radius: 5px;
@@ -760,7 +760,7 @@ nav ul li a {
 	transition: ease all 1s;
 }
 .archive:hover{
-	color: #009fd9;
+	color: #0083d1;
 	transition: ease all 0.5s;
 	transform: translateX(20px);
 }
@@ -782,7 +782,7 @@ nav ul li a {
 .archive_date{}
 
 .archive_date:hover{
-	color: #009fd9;
+	color: #0083d1;
 	transition: ease all 0.5s;
 	transform: translateX(10px);
 }
@@ -823,12 +823,12 @@ blockquote {
 
 .blokquotehr {
 	border: 0;
-	border-top: 1px dashed #009fd9;
+	border-top: 1px dashed #0083d1;
 	margin-top: -1px;
 }
 
 .article-title a {
-	color: #009FD9;
+	color: #0083d1;
 	border-radius: 10px;
 	padding: 0px 12px 0px 12px;
 	transition: all 1s ease-out;
@@ -837,14 +837,14 @@ blockquote {
 
 header {
 	width: 100%;
-	background: #009FD9;
+	background: #0083d1;
 	height: 380px;
 	user-select: none;
 }
 
 
 footer {
-	color: #009FD9;
+	color: #0083d1;
 	text-align: center;
 	font-size: 12px;
 	max-width: 100%;
@@ -856,7 +856,7 @@ footer a{
     transition: all ease 0.5s;
 }
 footer a:hover{
-    color: #009fd9;
+    color: #0083d1;
     transition: all ease 0.5s;
 }
 .fotlink{
@@ -913,7 +913,7 @@ footer a:hover{
 	display: none;
 	width: 36px;
 	height: 36px;
-	background: #009fd9;
+	background: #0083d1;
 	color: #fff;
 	text-align: center;
 	line-height: 36px;
@@ -926,7 +926,7 @@ footer a:hover{
 
 .article-time {
 	display: block;
-	color: #009FD9;
+	color: #0083d1;
 	text-align: center;
 	font-size: 12px;
 }
@@ -936,7 +936,7 @@ footer a:hover{
 a,u {
 	/*position: relative;*/
 	display: inline-block;
-	color: #009FD9;
+	color: #0083d1;
 	text-decoration: none;
 	padding-left: 3px;
 }
@@ -945,7 +945,7 @@ a,u {
 }
 
 .readmore a:hover {
-    background: #009fd9;
+    background: #0083d1;
     color: #fff;
     border-radius: 50%;
     width: 30px;
@@ -955,7 +955,7 @@ a,u {
 
 .readmore a {
     padding: 6px 2px 6px 2px;
-    color: #009fd9;
+    color: #0083d1;
     transition: all .5s;
     transform: rotate(90deg);
     border: 1px solid;
@@ -1177,7 +1177,7 @@ padding:5px;
 	font-weight: 100 !important;
 }
 .comment-content p a:hover{
-	color: #009fd9 !important;
+	color: #0083d1 !important;
 	text-decoration: revert;
 }
 .comment-content p img {
@@ -1278,15 +1278,15 @@ padding:5px;
 }
 
 .comment-author cite a:hover{
-	color: #009fd9;
-	text-shadow: 0px 0px 1px #009fd9;
+	color: #0083d1;
+	text-shadow: 0px 0px 1px #0083d1;
 	transition: ease 0.5s;
 	border-radius: 5px;
 	padding: 2px 5px;
 	margin-right: 5px;
 	margin-left: 5px;
 	/*box-shadow: 0 0 15px #d6d6d6;*/
-	filter: drop-shadow(2px 2px 4px #009fd9);
+	filter: drop-shadow(2px 2px 4px #0083d1);
 }
 
 .comment-awaiting-moderation {
@@ -1334,7 +1334,7 @@ padding:5px;
 #comment-form label {
 	position: absolute;
 	display: block;
-	color: #009fd9;
+	color: #0083d1;
 	background: #d9f5ff;
 	padding-left: 8px;
 	padding-top: 3px;
@@ -1372,8 +1372,8 @@ button.submit {
 	-webkit-transition: color 0.15s ease-in,background-color 0.15s ease-in;
 	transition: color 0.15s ease-in,background-color 0.15s ease-in;
 	color: #FFF;
-	border: 1px solid #009fd9;
-	background-color: #009fd9;
+	border: 1px solid #0083d1;
+	background-color: #0083d1;
 }
 
 button.submit:hover {
@@ -1572,7 +1572,7 @@ button, input, textarea {
     line-height: 18px;
     margin-bottom: 4px;
     font-weight: bold;
-    background: #009fd9;
+    background: #0083d1;
     width: 92px;
 }
 .duan_g_a {
@@ -1632,22 +1632,22 @@ button, input, textarea {
 
 /*评论标题样式*/
 .ping1 {
-	color: #009fd9;
+	color: #0083d1;
 	font-size: 14px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
-	border-left: 5px solid #009fd9;
+	border-left: 5px solid #0083d1;
 	padding-left: 8px;
 	user-select: none;
 	margin-bottom:10px;
 }
 
 .ping2 {
-	color: #009fd9;
+	color: #0083d1;
 	font-size: 14px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
-	border-left: 5px solid #009fd9;
+	border-left: 5px solid #0083d1;
 	padding-left: 8px;
 	margin: 10px 0px;
 	user-select: none;
@@ -1794,7 +1794,7 @@ i:hover {
 	animation-direction: alternate;
 	animation: jump ease 2.5s 1;
 	-webkit-animation: jump ease 2.5s 1;
-	background: #009fd9;
+	background: #0083d1;
 	color: white;
 }
 
@@ -1839,7 +1839,7 @@ i:hover {
 	}
 
 	50% {
-		text-shadow: 0 0 40px #009fd9
+		text-shadow: 0 0 40px #0083d1
 	}
 
 	100% {
