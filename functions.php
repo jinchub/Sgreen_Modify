@@ -160,7 +160,7 @@ $form->addInput($css->multiMode());
     $glink = new Typecho_Widget_Helper_Form_Element_Text('glink', NULL, NULL, _t('你的github库'), _t('在这里填入你的github库地址'));
     $form->addInput($glink);
 
-    $qzlink = new Typecho_Widget_Helper_Form_Element_Text('qzlink', NULL, NULL, _t('你的QQ空间'), _t('在这里填入你的QQ空间地址'));
+    $qzlink = new Typecho_Widget_Helper_Form_Element_Text('qzlink', NULL, NULL, _t('你的音乐地址'), _t('在这里填入你的音乐地址'));
     $form->addInput($qzlink);
 	
 	$zddt = new Typecho_Widget_Helper_Form_Element_Text('zddt', NULL, NULL, _t('你的站点地图'), _t('在这里填入你的站点地图地址，若没有；请使用相关工具或插件生成'));
