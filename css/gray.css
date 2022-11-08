@@ -265,8 +265,8 @@ a:hover {
 
 .intro-sitename {
 	display: block;
-	font-weight: 400;
-	font-size: 30px;
+	font-weight: 600;
+	font-size: 24px !important;
 }
 
 .intro-sitename a {
@@ -840,6 +840,7 @@ header {
 	background: #0083d1;
 	height: 380px;
 	user-select: none;
+	font-family: "youyuan";
 }
 
 
