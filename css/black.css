@@ -992,7 +992,8 @@ body {
 	float: right;
 	font-size: 13px;
 	color: white;
-	font-family:'Date';
+	font-family:'youyuan';
+	font-weight:bold;
 	position: absolute;
 	right: 10px;
 	top: 9.5px;
@@ -1002,10 +1003,11 @@ body {
 	position: absolute;
 	right:10px;
 	top:30px;
-	font-size: 13px;
+	font-size: 12px;
 	color: white;
-	font-family:'xfy','Date';
-z-index:20;
+	font-family:'youyuan';
+	font-weight:bold;
+	z-index:20;
 }
 /**body:before {
     content: " ";
