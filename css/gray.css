@@ -260,13 +260,14 @@ a:hover {
 */
 }
 .intro-logo:hover{
-	filter: drop-shadow(2px 4px 4px #1ccff9);
+	filter: drop-shadow(2px 4px 4px rgba(255,255,255,0.4));
 }
 
 .intro-sitename {
 	display: block;
 	font-weight: 600;
-	font-size: 24px !important;
+	font-size: 26px !important;
+	letter-spacing: 4px;
 }
 
 .intro-sitename a {
