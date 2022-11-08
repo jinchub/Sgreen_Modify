@@ -254,7 +254,6 @@ a:hover {
 	height: 120px;
 	border-radius: 50%;
 	transition: all 1.8s;
-	filter: drop-shadow(2px 4px 4px #008ccf);
 /*	animation: tiao_fly 1s 1s alternate infinite;
         -webkit-animation: tiao_fly 1s 1s alternate infinite;
 */
