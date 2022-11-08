@@ -18,7 +18,7 @@
 创建页面时候在右边模块那里选择对应模块即可
 
 #### 2022-11-08: 更新主题所有外观配色样式
-默认配色为:【舒心蓝】
+默认配色为:【舒心蓝】<br>
 注意: 其他外观配色没有波浪条动画
 
 ![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/demo.png)
