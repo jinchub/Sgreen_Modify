@@ -21,5 +21,5 @@
 默认配色为:【舒心蓝】<br>
 注意: 其他外观配色没有波浪条动画，因为需要找对应颜色的图片替换，修改header代码中的对应图片名称
 
-![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/demo.png)
+![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/demo.jpg)
 
