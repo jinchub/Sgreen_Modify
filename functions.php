@@ -37,7 +37,7 @@ $css = new Typecho_Widget_Helper_Form_Element_Radio('css',
 array(
 'green' => _t('小草绿'),
 'black' => _t('夜间黑'),
-'blue' => _t('绅士蓝'),
+'cyan' => _t('愣头青'),
 'pink' => _t('少女粉'),
 'gules' => _t('中国红'),
 'orange' => _t('伊藤橙'),
