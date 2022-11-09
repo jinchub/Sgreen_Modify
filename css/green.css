@@ -993,6 +993,7 @@ body {
 	color: white;
 	font-family:'youyuan';
 	font-weight:bold;
+	position: absolute;
 	right: 10px;
 	top: 9.5px;
 }
