@@ -256,19 +256,19 @@ a:hover {
 	height: 120px;
 	border-radius: 50%;
 	transition: all 1.8s;
-	filter: drop-shadow(2px 4px 4px #008ccf);
 /*	animation: tiao_fly 1s 1s alternate infinite;
         -webkit-animation: tiao_fly 1s 1s alternate infinite;
 */
 }
 .intro-logo:hover{
-	filter: drop-shadow(2px 4px 4px #1ccff9);
+	filter: drop-shadow(2px 4px 4px rgba(255,255,255,0.4));
 }
 
 .intro-sitename {
 	display: block;
-	font-weight: 400;
-	font-size: 30px;
+	font-weight: 600;
+    font-size: 26px !important;
+    letter-spacing: 4px;
 }
 
 .intro-sitename a {
@@ -840,8 +840,9 @@ blockquote {
 header {
 	width: 100%;
 	background: #3ac19f;
-	height: 415px;
+	height: 460px;
 	user-select: none;
+	font-family: "youyuan";
 }
 
 
@@ -990,8 +991,8 @@ body {
 	float: right;
 	font-size: 13px;
 	color: white;
-	font-family:'Date';
-	position: absolute;
+	font-family:'youyuan';
+	font-weight:bold;
 	right: 10px;
 	top: 9.5px;
 }
@@ -1000,9 +1001,10 @@ body {
 	position: absolute;
 	right:10px;
 	top:30px;
-	font-size: 13px;
+	font-size: 12px;
 	color: white;
-	font-family:'xfy','Date';
+	font-family:'youyuan';
+	font-weight:bold;
 z-index:20;
 }
 /**body:before {

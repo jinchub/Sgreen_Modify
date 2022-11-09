@@ -262,13 +262,14 @@ a:hover {
 */
 }
 .intro-logo:hover{
-	filter: drop-shadow(2px 4px 4px #1ccff9);
+	filter: drop-shadow(2px 4px 4px rgba(255,255,255,0.4));
 }
 
 .intro-sitename {
 	display: block;
-	font-weight: 400;
-	font-size: 30px;
+	font-weight: 600;
+    font-size: 26px !important;
+    letter-spacing: 4px;
 }
 
 .intro-sitename a {
@@ -840,8 +841,9 @@ blockquote {
 header {
 	width: 100%;
 	background: #673AB7;
-	height: 415px;
+	height: 460px;
 	user-select: none;
+	font-family: "youyuan";
 }
 
 
@@ -990,7 +992,8 @@ body {
 	float: right;
 	font-size: 13px;
 	color: white;
-	font-family:'Date';
+	font-family:'youyuan';
+	font-weight:bold;
 	position: absolute;
 	right: 10px;
 	top: 9.5px;
@@ -1000,10 +1003,11 @@ body {
 	position: absolute;
 	right:10px;
 	top:30px;
-	font-size: 13px;
+	font-size: 12px;
 	color: white;
-	font-family:'xfy','Date';
-z-index:20;
+	font-family:'youyuan';
+	font-weight:bold;
+	z-index:20;
 }
 /**body:before {
     content: " ";
