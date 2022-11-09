@@ -1,7 +1,5 @@
-# Sgreen_Modify
-在 [typecho_Sgreen](https://github.com/yiyeticms/typecho_Sgreen) 主题上修改的版本
-
-本主题适用于 typecho 博客系统
+# typecho博客主题【Sgreen_Modify】
+在 [typecho_Sgreen](https://github.com/yiyeticms/typecho_Sgreen) 主题基础上修改样式的版本
 
 演示地址：https://me.jinchuang.org
 
