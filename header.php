@@ -141,36 +141,30 @@ $(function () {
 				</ul>
 			</nav>
 </div>
-<!-- 波浪样式 -->
-<div ondragstart="return false;" class="wave-box">
-	<div class="marquee-box marquee-up" id="marquee-box">
-		<div class="marquee">
-			<div class="wave-list-box" id="wave-list-box1">
-				<ul>
-					<li><img height="60" alt="波浪" src="<?php $this->options->themeUrl('img/header/gray2.png'); ?>"></li>
-				</ul>
-			</div>
-			<div class="wave-list-box" id="wave-list-box2">
-				<ul>
-					<li><img height="60" alt="波浪" src="<?php $this->options->themeUrl('img/header/gray2.png'); ?>"></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="marquee-box" id="marquee-box3">
-		<div class="marquee">
-			<div class="wave-list-box" id="wave-list-box4">
-				<ul>
-					<li><img height="60" alt="波浪" src="<?php $this->options->themeUrl('img/header/gray1.png'); ?>"></li>
-				</ul>
-			</div>
-			<div class="wave-list-box" id="wave-list-box5">
-				<ul>
-					<li><img height="60" alt="波浪" src="<?php $this->options->themeUrl('img/header/gray1.png'); ?>"></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+</header>
+<!-- 波浪 -->
+<div class="twiiuii_layout">
+<svg class="teditorial"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 24 150 38"
+     preserveAspectRatio="none">
+ <defs>
+ <path id="tgentle-wave"
+ d="M-160 44c30 0
+    58-18 88-18s
+    58 18 88 18
+    58-18 88-18
+    58 18 88 18
+    v44h-352z" />
+  </defs>
+  <g class="tparallax">
+   <use xlink:href="#tgentle-wave" x="50" y="0" fill="rgba(0,131,209,0.2)"/>
+   <use xlink:href="#tgentle-wave" x="50" y="3" fill="rgba(0,131,209,0.4)"/>
+   <use xlink:href="#tgentle-wave" x="50" y="6" fill="rgba(0,131,209,0.6)"/>
+   <use xlink:href="#tgentle-wave" x="50" y="9" fill="rgba(0,131,209,0.8)"/>
+   <use xlink:href="#tgentle-wave" x="50" y="12" fill="#0083d1"/>
+  </g>
+</svg>
 </div>
 
-</header>
