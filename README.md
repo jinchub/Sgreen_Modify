@@ -16,7 +16,7 @@
 
 #### 2022-11-08更新: 统一所有外观配色样式
 默认配色为:【舒心蓝】<br>
-注意: 其他外观配色显示波浪条动画，可以手动调整css样式即可
+你可以修改为你想要的任何效果，预览图是我博客现在的效果。增加了暗色模式
 
 ![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot.jpg)
 ![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot1.jpg)
