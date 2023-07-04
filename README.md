@@ -18,6 +18,6 @@
 默认配色为:【舒心蓝】<br>
 注意: 其他外观配色显示波浪条动画，可以手动调整css样式即可
 
-![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot.png)
-![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot1.png)
+![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot.jpg)
+![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot1.jpg)
 
