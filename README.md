@@ -14,9 +14,11 @@
 #### 标签和归档：
 创建页面时候在右边模块那里选择对应模块即可
 
-#### 2022-11-08更新: 统一所有外观配色样式
-默认配色为:【舒心蓝】<br>
-你可以修改为你想要的任何效果，预览图是我博客现在的效果。增加了暗色模式
+#### 统一所有外观配色样式
+默认配色为:【舒心蓝】
+
+#### 说明：
+你可以修改为你想要的任何效果，预览图是我博客现在的效果。增加了暗色模式（代码未更新）
 
 ![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot.jpg)
 ![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot1.jpg)
