@@ -97,7 +97,7 @@ $form->addInput($css->multiMode());
         array('able' => _t('启用'),
             'disable' => _t('禁止'),
         ),
-        'disable', _t('是否启用灯箱功能'), _t('默认禁止，启用则会在文章或页面加载灯箱效果'));
+        'able', _t('是否启用灯箱功能'), _t('默认禁止，启用则会在文章或页面加载灯箱效果'));
     $form->addInput($Zoom);
     
     	$Demo= new Typecho_Widget_Helper_Form_Element_Radio('Demo',
@@ -111,7 +111,7 @@ $form->addInput($css->multiMode());
         array('able' => _t('启用'),
             'disable' => _t('禁止'),
         ),
-        'disable', _t('是否启用代码高亮'), _t('默认禁止，启用则会在文章或页面加载代码高亮效果'));
+        'able', _t('是否启用代码高亮'), _t('默认禁止，启用则会在文章或页面加载代码高亮效果'));
     $form->addInput($Prism);
 
 	$Copyright= new Typecho_Widget_Helper_Form_Element_Radio('Copyright',
