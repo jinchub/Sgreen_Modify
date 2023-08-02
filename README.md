@@ -22,7 +22,11 @@
 - header区域无刷新，可以放置歌曲
 - 评论不支持
 
-#### 首页截图：
+#### 其他说明
+- 文件夹内包含了2个视频文件【6.4MB】
+- 蓝奏云下载: https://jinc.lanzout.com/b01l3lvra  密码:asjh
+
+#### 截图：
 
 ![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot.jpg)
 ![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot1.jpg)
