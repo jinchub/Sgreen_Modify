@@ -148,9 +148,6 @@ $form->addInput($css->multiMode());
     $ico = new Typecho_Widget_Helper_Form_Element_Text('ico', NULL, NULL, _t('你的ico图标地址【必填】'), _t('在这里填入你的ICO图标地址，若没有你可以自行制作ico图标后放到站点根目录，在此处填入链接即可'));
     $form->addInput($ico);
 
-    $headervideo = new Typecho_Widget_Helper_Form_Element_Text('headervideo', NULL, NULL, _t('顶部背景视频地址'), _t('在这里填入视频地址url'));
-	$form->addInput($headervideo);
-
     $qqlink = new Typecho_Widget_Helper_Form_Element_Text('qqlink', NULL, NULL, _t('你的QQ联系地址'), _t('在这里填入QQ联系地址，不知道请到QQ推广里获取代码，其格式为（http://wpa.qq.com/msgrd?v=3&uin=你的QQ号&site=qq&menu=yes）'));
     $form->addInput($qqlink);
 	
@@ -166,10 +163,10 @@ $form->addInput($css->multiMode());
     $qzlink = new Typecho_Widget_Helper_Form_Element_Text('qzlink', NULL, NULL, _t('你的音乐地址'), _t('在这里填入你的音乐地址'));
     $form->addInput($qzlink);
 	
-	$zddt = new Typecho_Widget_Helper_Form_Element_Text('zddt', NULL, NULL, _t('你的站点地图'), _t('在这里填入你的站点地图地址，若没有；请使用相关工具或插件生成'));
+    $zddt = new Typecho_Widget_Helper_Form_Element_Text('zddt', NULL, NULL, _t('你的站点地图'), _t('在这里填入你的站点地图地址，若没有；请使用相关工具或插件生成'));
     $form->addInput($zddt);
 	
-	$wzdt = new Typecho_Widget_Helper_Form_Element_Text('wzdt', NULL, NULL, _t('你的网站地图'), _t('在这里填入你的网站地图地址，若没有；请使用相关工具或插件生成'));
+    $wzdt = new Typecho_Widget_Helper_Form_Element_Text('wzdt', NULL, NULL, _t('你的网站地图'), _t('在这里填入你的网站地图地址，若没有；请使用相关工具或插件生成'));
     $form->addInput($wzdt);
 
     $wzdsw = new Typecho_Widget_Helper_Form_Element_Text('wzdsw', NULL, NULL, _t('你的打赏文案'), _t('在这里填入你的文章打赏文案，默认显示在打赏按钮上方'));
@@ -186,13 +183,13 @@ $form->addInput($css->multiMode());
     $zhifubao = new Typecho_Widget_Helper_Form_Element_Text('zhifubao', NULL, NULL, _t('你的支付宝收款二维码地址'), _t('在这里填入你的支付宝打赏图片地址，默认显示在打赏按钮下方'));
     $form->addInput($zhifubao);
 
-	$icp= new Typecho_Widget_Helper_Form_Element_Text('icp', NULL, NULL, _t('你的工信备案许可证号'), _t('在这里填入你的备案许可证号，若没有；请忽略或及时备案'));
+    $icp= new Typecho_Widget_Helper_Form_Element_Text('icp', NULL, NULL, _t('你的工信备案许可证号'), _t('在这里填入你的备案许可证号，若没有；请忽略或及时备案'));
     $form->addInput($icp);
 
-	$gonganurl= new Typecho_Widget_Helper_Form_Element_Text('gonganurl', NULL, NULL, _t('你的公安备案许可证链接'), _t('在这里填入你的公安备案许可证链接，若没有；请忽略或及时备案'));
+    $gonganurl= new Typecho_Widget_Helper_Form_Element_Text('gonganurl', NULL, NULL, _t('你的公安备案许可证链接'), _t('在这里填入你的公安备案许可证链接，若没有；请忽略或及时备案'));
     $form->addInput($gonganurl);
 
-	$gongan= new Typecho_Widget_Helper_Form_Element_Text('gongan', NULL, NULL, _t('你的公安备案许可证号'), _t('在这里填入你的公安备案许可证号，若没有；请忽略或及时备案'));
+    $gongan= new Typecho_Widget_Helper_Form_Element_Text('gongan', NULL, NULL, _t('你的公安备案许可证号'), _t('在这里填入你的公安备案许可证号，若没有；请忽略或及时备案'));
     $form->addInput($gongan);
 	
 }
