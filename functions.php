@@ -180,10 +180,10 @@ $form->addInput($css->multiMode());
     
     $form->addInput($jrxq);
 
-    $wechat = new Typecho_Widget_Helper_Form_Element_Text('wechat', NULL, NULL, _t('你的微信链接'), _t('在这里填入你的微信打赏链接，默认显示在打赏按钮下方'));
+    $wechat = new Typecho_Widget_Helper_Form_Element_Text('wechat', NULL, NULL, _t('你的微信收款二维码图片地址'), _t('在这里填入你的微信打赏图片地址，默认显示在打赏按钮下方'));
     $form->addInput($wechat);
 
-    $zhifubao = new Typecho_Widget_Helper_Form_Element_Text('zhifubao', NULL, NULL, _t('你的支付宝链接'), _t('在这里填入你的支付宝打赏链接，默认显示在打赏按钮下方'));
+    $zhifubao = new Typecho_Widget_Helper_Form_Element_Text('zhifubao', NULL, NULL, _t('你的支付宝收款二维码地址'), _t('在这里填入你的支付宝打赏图片地址，默认显示在打赏按钮下方'));
     $form->addInput($zhifubao);
 
 	$icp= new Typecho_Widget_Helper_Form_Element_Text('icp', NULL, NULL, _t('你的工信备案许可证号'), _t('在这里填入你的备案许可证号，若没有；请忽略或及时备案'));

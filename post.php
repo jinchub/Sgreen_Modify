@@ -60,7 +60,7 @@
 	</script>
 	<?php endif; ?>
         <br>
-        <p style="user-select:none;text-align:center;color:color:rgba(113,113,11,0.5);;font-size:12px;border-radius:5px;">商业转载请联系作者获得授权，非商业转载请注明出处 本文地址：<span style=word-wrap: break-word;"><?php $this->permalink() ?></span></p>
+        <p style="user-select:none;text-align:center;color:rgba(113,113,113,0.5);;font-size:12px;border-radius:5px;">商业转载请联系作者获得授权，非商业转载请注明出处 本文地址：<span style=word-wrap: break-word;"><?php $this->permalink() ?></span></p>
         </div>
       <?php if ($this->options->Reward == 'able'): ?>
 
@@ -68,7 +68,7 @@
 <div class="social-share" data-disabled="diandian,tencent,google"><font style="font-size:18px;color:darkcyan;"></font>
 </div>
 </div>
-        <div ondragstart="return false;" style="user-select:none;padding:0; margin: 0px auto; width: 90%; font-size:14px; text-align: center;">
+        <div ondragstart="return false;" style="user-select:none;padding:0; margin: 5px auto; width: 90%; font-size:14px; text-align: center;">
         <div>
           <?php $this->options->wzdsw(); ?>
         </div>
@@ -77,9 +77,9 @@
           <div id="wechat" class="wxpd"> <img id="wechat_qr" src="<?php $this->options->wechat(); ?>">
             <p class="wx">微信扫码赞赏</p>
           </div>
-          <!--<div id="alipay" class="zfbpd"> <img id="alipay_qr" src="<?php $this->options->zhifubao(); ?>">
+          <div id="alipay" class="zfbpd"> <img id="alipay_qr" src="<?php $this->options->zhifubao(); ?>">
             <p class="zfb">支付宝赞赏</p>
-          </div>-->
+          </div>
         </div>
       </div>
       <?php endif; ?>    

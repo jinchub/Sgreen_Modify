@@ -1319,7 +1319,6 @@ button,input,textarea {
     opacity: 1
 }
 #alipay_qr {
-    display: none;
     width: 200px;
     height: 200px;
     border-top-left-radius: 10px;
@@ -1328,9 +1327,8 @@ button,input,textarea {
     opacity: 1
 }
 .zfb {
-    display: none;
     color: #ffffff;
-    background-image: linear-gradient(to top,#0755dc 0%,#019fe8 100%);
+    background-image: linear-gradient(to top,#0065ad 0%,#0390f4 20%);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 4px 10px 4px 10px;
@@ -1353,7 +1351,6 @@ button,input,textarea {
 .zfbpd {
     display: inline-block;
     padding-left: 30px;
-    display: none;
 }
 
 #pContent .ssBtn {
@@ -1848,7 +1845,8 @@ tr {
         padding-right: 0px
     }
     .zfbpd {
-        padding-left: 0px
+        padding-left: 0px;
+        margin:10px 0px;
     }
 
     .qywx {
