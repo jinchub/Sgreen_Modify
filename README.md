@@ -24,7 +24,7 @@
 
 #### 其他说明
 - 文件夹内包含了2个视频文件【6.4MB】
-- 蓝奏云下载: https://jinc.lanzout.com/b01l3lvra  密码:asjh
+- 蓝奏云下载主题压缩包: https://jinc.lanzout.com/b01l3lvra  密码:asjh
 
 #### 截图：
 
