@@ -1,5 +1,5 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
-<!-- 切换外观和头像，每天凌晨cookie失效 -->
+<!-- 切换配色\头像\视频，每天凌晨cookie失效 -->
 <script>
     var header = document.getElementsByTagName("html")[0];
     var headts = document.getElementsByTagName('head')[0];
@@ -7,7 +7,7 @@
     var currentTheme = header.classList.contains('black') ? 'black' : ts;
     var Logo = document.querySelector('.intro-logo');
     var cookieTheme = getCookie("theme");
-    videoSource = "/usr/themes/Sgreen_Modify/video/yun.mp4";
+    videoSource = "/usr/themes/Sgreen_Modify/video/header.mp4";
 
     if (cookieTheme) {
         currentTheme = cookieTheme;
@@ -28,7 +28,7 @@
         } else if (currentTheme === "black") {
             setDocumentTheme(ts);
             currentTheme = ts;
-            videoSource = "/usr/themes/Sgreen_Modify/video/yun.mp4";
+            videoSource = "/usr/themes/Sgreen_Modify/video/header.mp4";
             document.getElementById("vd").src = videoSource;
         }
         setCookie("theme", currentTheme);
