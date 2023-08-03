@@ -93,7 +93,7 @@ $logo_path = '/usr/themes/Sgreen_Modify/img/logo/'.$theme.'/logo.png';
         <!-- 顶部视频背景 -->
         <div class="video">
             <video oncontextmenu="return false" id="vd" controlslist="nodownload" autoplay loop muted >
-                <source src="/usr/themes/Sgreen_Modify/video/yun.mp4" type="video/mp4" />
+                <source src="/usr/themes/Sgreen_Modify/video/header.mp4" type="video/mp4" />
             </video>
         </div>
 
