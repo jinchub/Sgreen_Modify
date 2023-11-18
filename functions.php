@@ -34,7 +34,6 @@ function themeConfig($form) {
 $css = new Typecho_Widget_Helper_Form_Element_Radio('css',
 array(
 'green' => _t('[小草绿]'),
-'qing' => _t('[水丹青]'),
 ),
 'green',
 _t('网站外观配色选择【必填】'));
