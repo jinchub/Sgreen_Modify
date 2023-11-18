@@ -11,7 +11,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <content>  
     <div id="pjax-container" class="main box">
         <!-- 文档归档 -->
-        <div id="content1" class="content show">
             <div ondragstart="return false;" style="user-select:none;margin-top:30px;" class="article-content">
                 <?php 
                     $stat = Typecho_Widget::widget('Widget_Stat');
@@ -36,7 +35,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
                     echo $output;
                 ?>
             </div>
-        </div>
     </div>
 </content>
 
