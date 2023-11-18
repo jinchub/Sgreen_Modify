@@ -509,10 +509,10 @@ audio::-ms-media-controls-enclosure {
         margin-left:20px;
     }
     ul li {
-        /*box-shadow:0px 10px 7px -7px #ffffff*/
+
     }
     ul li a:hover {
-        filter: drop-shadow(0px 2px 2px #00662f)
+
     }
     nav ul {
         display: inline-block;
