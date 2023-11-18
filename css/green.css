@@ -28,7 +28,7 @@ html {
 }
 body {
     cursor: url(../img/cur/body.cur),auto;
-    font-family: din,PingFang SC,Hiragino Sans GB,STHeiti,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+    font-family: PingFang SC,Hiragino Sans GB,STHeiti,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
     background-color: #f7f7f7;
     color: #333;
     font-size: 12px;
@@ -930,7 +930,6 @@ footer a:hover {
     animation: ran 40s linear infinite;
     user-select: none;
     letter-spacing: 0.5px;
-    font-family: 'din';
 }
 /*当网页在Windows高对比度模式下显示时，将.fotba和.fotba>a元素的文字颜色设置为#dddddd（灰色）*/
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -1197,7 +1196,6 @@ footer a:hover {
     height: auto;
     max-height: 400px;
     color: #6f6f6f;
-    font-family: 'din';
     background: #f9f9f9;
     font-size: 12px;
     margin-left: 40px;
@@ -1569,7 +1567,6 @@ textarea.text-area {
 button,input,textarea {
     outline: 0;
     text-indent: 14px;
-    font-family: din,'Hiragino Sans GB','Microsoft Yahei';
     border: 1px solid #eaeaea;
     border-radius: 5px;
     padding: 4px 5px 5px 5px;
@@ -1700,10 +1697,6 @@ video {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
-}
-
-.duan_cu,.duan_cu_s,.duan_text,.duan_s,.duan_o,.duan {
-    font-family: din,'Hiragino Sans GB','Microsoft Yahei'
 }
 
 /*正文标题*/
