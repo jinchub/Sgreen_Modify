@@ -1,8 +1,10 @@
 # typecho博客主题【Sgreen_Modify】
 在 [typecho_Sgreen](https://github.com/yiyeticms/typecho_Sgreen) 主题基础上修改后的版本
 
-演示地址: https://demo.wojc.cn
-正在使用: https://wojc.cn
+
+- 演示地址: https://demo.wojc.cn
+- 正在使用: https://wojc.cn
+- 如果此修改的主题使用上有问题，可以通过上面博客地址联系我
 
 ### Sgreen主题二次修改使用说明：
 - 默认开启 [自动摘要、搜索、灯箱、代码高亮、加载动画] 功能
