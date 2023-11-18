@@ -28,7 +28,7 @@ html {
 }
 body {
     cursor: url(../img/cur/body.cur),auto;
-    font-family: din,'Hiragino Sans GB','Microsoft Yahei',Arial,sans-serif;
+    font-family: din,PingFang SC,Hiragino Sans GB,STHeiti,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
     background-color: #f7f7f7;
     color: #333;
     font-size: 12px;
@@ -277,7 +277,6 @@ content .article {
 .siteurl{
     color: white;
     font-size:28px;
-    font-family:'MISANSDB';
 }
 .header-siteinfo:hover {
 }
@@ -406,7 +405,6 @@ content .article {
 #yhtoggleBtn{
     background: rgba(255, 255, 255,0.15);
     border: 0;
-    font-family: 'Misansdb';
     font-size: 12px;
     color: rgba(255,255,255,0.7);
     text-align: center;
@@ -420,7 +418,6 @@ content .article {
 #playButton{
     background: rgba(255, 255, 255,0.15);
     border: 0;
-    font-family: 'Misansdb';
     font-size: 12px;
     color: rgba(255,255,255,0.9);
     text-align: center;
@@ -933,7 +930,7 @@ footer a:hover {
     animation: ran 40s linear infinite;
     user-select: none;
     letter-spacing: 0.5px;
-    font-family: 'din','Misansdb';
+    font-family: 'din';
 }
 /*当网页在Windows高对比度模式下显示时，将.fotba和.fotba>a元素的文字颜色设置为#dddddd（灰色）*/
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
