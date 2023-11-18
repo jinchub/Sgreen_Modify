@@ -1056,6 +1056,9 @@ footer a:hover {
 .leave {
     padding-left: 14px;
 }
+.leave a {
+    margin-left:3px;
+}
 .read {
     padding-left: 18px;
 }
