@@ -130,6 +130,11 @@ html.black .scrolltop{background-color: rgba(51, 51, 51, 0.7);background:unset;b
 html.black .archive a,html.black .archive{color:#a3a3a3 !important;}
 html.black .archive a:hover{color:white !important;}
 html.black .Snow{opacity:0;}
+html.black .article-content ul li{color:#9f9f9f}
+html.black h1{color:#c1c1c1}
+html.black h3{color:#8d8d8d;}
+html.black h4{color:#8d8d8d;}
+html.black code{background: #414141;color: #b3b3b3;}
 html.black .header-menu{background: rgba(55, 55, 55, 0.7);}
 .header-menu{}
 /*页面宽度小于580px的样式*/
