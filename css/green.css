@@ -598,7 +598,17 @@ audio::-ms-media-controls-enclosure {
     font-size: 12px;
     color:#555555;
 }
-
+.article-content ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+.article-content ul{
+    margin-bottom: 20px;
+}
+h3,h4{
+    color: black;
+    font-size: 16px;
+}
 .page-abouta a{
     text-decoration: revert;
     color:#919191;
