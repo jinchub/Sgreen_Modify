@@ -633,7 +633,6 @@ audio::-ms-media-controls-enclosure {
 
 .newlist{
     display: grid;
-    justify-items: center;
     margin-right:20px;
     width:80%;
     height: 115px;
