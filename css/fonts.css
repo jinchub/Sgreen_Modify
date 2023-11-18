@@ -1,0 +1,4 @@
+@charset "utf8";
+/*数字字体*/
+@font-face{font-family:"time";src:url("./fonts/time/time.eot");src:url("./fonts/time/time.eot?#iefix") format("embedded-opentype"),url("./fonts/time/time.woff") format("woff"),url("./fonts/time/time.ttf") format("truetype"),url("./fonts/time/time.svg#time") format("svg");font-style:normal;font-weight:normal}
+#share_home,.article-title,.archive a,header,.comment-info,button.submit,.duan_g,.tt1,.tt3,.tt4,.tt5,.game1,.game2,.ping1,.ping2,.content_tags,.post-nav,.post-nav-item .prev,.reupdate,.catalogue,.error_page,.solarlunar,.week,.fotba,.reward-button,.ttop,.wx,.page-navigator a,.menu li,.linkm,.game,#close-btn,#download-btn{font-family:"Misansdb";}

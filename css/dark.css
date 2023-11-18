@@ -1,0 +1,142 @@
+/** 靳闯博客 - 记录分享 **/
+html.black body{background-color:#333333;}
+html.black pre{color:#898989;background-color:rgba(33,33,33);border: 2px solid #232323;border-top: 26px solid #232323;}
+html.black .hljs{color:#d7d7d7 !important;}
+html.black .tparallax use:nth-child(1) {fill: rgba(51,51,51,0.1);}
+html.black .tparallax use:nth-child(2) {fill: rgba(51,51,51,0.25);}
+html.black .tparallax use:nth-child(3) {fill: rgba(51,51,51,0.5);}
+html.black .tparallax use:nth-child(4) {fill: rgba(51,51,51,0.75);}
+html.black .tparallax use:nth-child(5) {fill: rgba(51,51,51,1);}
+html.black .ulogo:after{display:none;}
+html.black .intro-sitename a,html.black .header-siteinfo,html.black .header-social a,{color:#c7c7c7}
+html.black #demo{color:white !important;}
+html.black #demo{background:hsla(0,0%,100%,0.1)}
+html.black .GG{background:rgb(28,28,28,0.7) !important}
+html.black .sweet-overlay{background-image: linear-gradient(to top,rgba(0,0,0,0.4) 0%, rgba(255 ,255 ,255 ,0) 100%) !important;}
+html.black .catalogue{background:rgba(47,47,47,0.5);color:#999999;}
+html.black .catalogue:hover{background:#2aae67 !important;color:white !important;}
+html.black .article-title a:hover{background: #535353;color: #e7e7e7;transition: all .3s ease-out;}
+html.black .article-title{color:#c3c3c3;}
+html.black .list-cont{color:#7d7d7d;}
+html.black .posttime{color:#878787;}
+html.black .small-img1,html.black .small-img2,html.black .small-img3{filter: opacity(0.7);}
+html.black .article-content{color:#5d5d5d;}
+html.black .article-content img{opacity:0.9;}
+html.black .zoom-overlay{background: rgba(0,0,0,0.8) none repeat scroll 0 0;}
+html.black .hljs-code, .hljs-comment, .hljs-formula{filter: invert(0);}
+html.black img.zoom-img{box-shadow: 0 0 15px #232323;}
+html.black .pagination a, html.black .pagination span{color:#6c6c6c;}
+html.black .post-nav .next:hover,html.black.post-nav .prev:hover{filter:drop-shadow(0px 0px 5px #555555)}
+html.black .page-navigator .current a{color:#d9d9d9;background:#555555;box-shadow: 2px 2px 8px 0px #313131;}
+html.black .page-navigator a:hover{background:#555555;color:#ffffff;box-shadow: 2px 2px 8px 0px #313131;}
+html.black .page-navigator a{background:#393939;color:#7c7c7c}
+html.black blockquote{color:#b5b5b5;background:#3f3f3f;}
+html.black .article-title a{color:#c3c3c3;backdrop-filter:blur(4px);}
+html.black header{background: url(https://img.jinchuang.org/typecho/header/img/67.jpg) no-repeat center;background-size: cover;}
+html.black #vd{filter: brightness(0.8);}
+html.black .fotlink:hover{filter:drop-shadow(0px 2px 4px #000000);}
+html.black .fottb a{background:rgba(37,37,37,0.3);}
+html.black .toTop:hover{background-color:unset}
+html.black .article-time a{color:#878787}
+html.black .article-time a:hover {color: #2aae6b;}
+html.black .postbq a{color:#878787}
+html.black .postfl a{color:#878787}
+html.black .time{color:rgba(255,255,255,0.7) !important;}
+html.black .week{color:rgba(255,255,255,0.7) !important;}
+html.black .solarlunar{color:rgba(255,255,255,0.7) !important;}
+html.black #playButton{color:rgba(255,255,255,0.7) !important;background:rgba(255,255,255,0.15) !important;}
+html.black #playButton:hover{color:rgba(255,255,255,0.9) !important;background:rgba(255,255,255,0.3) !important;}
+html.black .comment-by-author > .comment-author .fn::after{background-color: unset;box-shadow: unset;}
+html.black .comment-content pre ,html.black.comment-content code{color: #979797;border-top: 26px solid #1c1c1c;}
+html.black .comment-list li .comment-reply{line-height:17px;}
+html.black .comment-list li .comment-reply a{color:#616161;background:#3b3b3b;}
+html.black .comment-list li .comment-reply a:hover{background:#515151;color:white;}
+html.black .comment-author .avatar{box-shadow:unset;}
+html.black .comment-author cite a{color:#838383;background: rgba(55,55,55,0.3);}
+html.black .comment-author cite a:hover{color:#ffffff;background:rgba(83,83,83,0.7);filter:drop-shadow(0px 1px 10px #333333)}
+html.black .comment-u{color:#737373;border:2px solid #737373;background:unset;}
+html.black .comment-uu{color:#a3a3a3;border-left:none;border-right:none;}
+html.black #comment-form label{color:#c5c5c5;background:#2b2b2b;}
+html.black #comment-form input{color:#c3c3c3;background:#252525;box-shadow:unset;}
+html.black .comment-content p{color:#ADADAD}
+html.black button.submit{color:rgba(181,181,181,0.8);background-color:rgba(65,65,65,0.8);}
+html.black button.submit:hover{background-color:#696969;color:#bfbfbf}
+html.black .searchtop-field{filter: brightness(0.8);}
+html.black .textarea{background-color:rgba(59,59,59,0.2);color:#8d8d8d}
+html.black .reward-button{color:#b5b5b5;background-image:linear-gradient(to right,rgba(0, 51, 23,0.85) 0%,rgba(0, 38, 97,0.88) 100%);box-shadow:0px 0px 10px 2px #1c1c1c}
+html.black .wxpd{filter:unset}
+html.black .duan_cu{margin-top: 10px;filter: brightness(1.5);}
+html.black .duan{color:#bbbbbb;background:rgba(187,187,187,0.1);}
+html.black .duan:before{filter: grayscale(1);border-right: 11px solid #bbbbbb;}
+html.black .duan:after{background:#bbbbbb;}
+html.black .duan_o{color:#008dcd;background:rgba(0,142,225,0.1);border-left:2px solid #00477f;}
+html.black .duan_notice{color:#ff5722;background:rgba(255,87,34,0.1);border-left:2px solid #855000;}
+html.black .duan_n{color:#009688;background:rgba(0,150,136,0.15);border-left:2px solid #00534b;}
+html.black .duan_g{color:#bfbfbf;background:rgba(79,79,79,0.3)}
+html.black .duan_g:hover{color: #c7c7c7;background:#696969;box-shadow: 0 5px 7px -5px #101010 !important;background-image: unset !important;}
+html.black .ping1{color:#737373;}
+html.black .ping2{color:#737373;}
+html.black .hljs-subst {color: #5f5f5f;}
+html.black .tags a{background:#393939;color:#adadad;}
+html.black .tagsa:hover {background: #444444;color: white;}
+html.black .EKHJj{color:rgba(255,255,255,0.7) !important;}
+html.black .ihAeOA{background:linear-gradient(to top,rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.03) 70%) !important;}
+html.black .gtZhim{background:linear-gradient(to top,rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.03) 70%) !important;}
+html.black .gTyFGf{background:linear-gradient(to top,rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.03) 70%) !important;}
+html.black .gEPbpr{background:linear-gradient(to top,rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.03) 70%) !important;}
+html.black .hWtwV{background:linear-gradient(to top,rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.03) 70%) !important;}
+html.black .gCOKdy{background:linear-gradient(to top,rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.03) 70%) !important;}
+html.black .OeVeF{filter:none;}
+html.black .about_page{color:#878787;}
+html.black .about_page_2{color:#878787;}
+html.black .cmvd{box-shadow:unset;}
+html.black .google-ads{filter: blur(4px) brightness(0.2);opacity: 0.5;}
+html.black .google-ads:hover{filter: blur(0px) brightness(0.9);opacity:1;}
+html.black .social-share .social-share-icon{background:rgba(45,45,45,0.3) !important;}
+html.black .social-share .social-share-icon:hover{background:#313131 !important;color:none}
+html.black .local{color:#595959}
+html.black .comment-time{color:#676767;}
+html.black .archupdate{background:rgba(28, 28, 28,0.18);color:#575757;}
+html.black .menu li{filter: unset;}
+html.black .linkimg{box-shadow:0 0 0px 3px rgba(53,53,53,0.5)}
+html.black .linkimgs{filter: contrast(0.5);}
+html.black .links:hover{background-image:linear-gradient(166deg,#181818 10%,#2d2d2d 90%);}
+html.black .lkfont{color:#979797;}
+html.black .lkfont:hover{color:#d9d9d9 !important;}
+html.black .anniu{color:#03e9f4;background:rgba(55,55,55,0.3);}
+html.black .linkme{background:rgba(55,55,55,0.3);}
+html.black .Lyu4{color:#ff2828}
+html.black .game{background:rgba(79,79,79,0.3);color:#bfbfbf;}
+html.black .game:hover{background:#696969;color:white;}
+html.black .toTop{opacity:0.7}
+html.black #gxcontent{background: rgba(49,49,49,0.5);box-shadow:unset}
+html.black #toggle-style{background: #1e1e1e;}
+html.black #toggle-style:hover{background: #fff;}
+html.black .toggle-icon{color:white;}
+html.black .fa-moon-o{display:none;}
+html.black .fa-certificate{color:#ffb300;display:block;}
+html.black footer{background:none;}
+html.black .thumb::before{filter:invert(0.5)}
+html.black .thumbimg{filter: brightness(0.9);}
+html.black .readmore{background:rgba(49, 49,49,0.7);}
+html.black .readmore:hover{background:#2f2f2f}
+html.black .content_img{border: 1px solid rgb(38,38,38,0.4);}
+html.black .content_img:before{border-right: 40px solid rgba(53 ,53 ,53,0.7);}
+html.black .txy{color:white !important;}
+html.black #share_bz{filter: unset;box-shadow: 0 0 0 4px #1e1e1e;}
+html.black .links-down{background: #434343 !important; filter: drop-shadow(0px 0px 4px #555) !important;}
+html.black .page-about{background: #1e1e1e;border-left: 3px solid #272727;}
+html.black .scrolltop{background-color: rgba(51, 51, 51, 0.7);background:unset;box-shadow: rgba(0,0,0,0.2) 0px 0px 20px 0px;}
+html.black .archive a,html.black .archive{color:#a3a3a3 !important;}
+html.black .archive a:hover{color:white !important;}
+html.black .Snow{opacity:0;}
+html.black .header-menu{background: rgba(55, 55, 55, 0.7);}
+.header-menu{}
+/*页面宽度小于580px的样式*/
+@media screen and (max-width:580px) {
+html.black .hactive{background:unset;color:white;}
+html.black .home{background:#373737;}
+html.black .homei{background: unset !important;}
+html.black .header-menu::before{display:none;}
+html.black .list-cont:after{background:#373737;}
+}
