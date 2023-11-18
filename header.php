@@ -370,11 +370,11 @@
                 </a>
                 <a class="contact flink">
                     <i class="fa fa-envelope"></i>
-                    <div class="icon">Email: xx@xxx.com</div>
+                    <div class="icon"><?php $this->options->mlink(); ?></div>
                 </a>
                 <a  class="contact flink">
                     <i class="fa fa-qq"></i>
-                    <div class="icon">QQ: 123456</div>
+                    <div class="icon"><?php $this->options->qqlink(); ?></div>
                 </a>
                 <script>
                     var contacts = document.querySelectorAll('.contact');
@@ -388,14 +388,8 @@
                             });
                     });
                 </script>
-                <a class="flink" href="<?php $this->options->wlink(); ?>" title="企业微信客服" target="_blank">
-                    <i class="fa fa-weixin"></i>
-                </a>
                 <a class="flink" href="<?php $this->options->musiclink(); ?>" target="_blank">
                     <i class="fa fa-headphones"></i>
-                </a>
-                <a class="flink" href="<?php $this->options->videolink(); ?>" target="_blank">
-                    <i class="fa fa-video-camera"></i>
                 </a>
                 <a class="flink" href="<?php $this->options->glink(); ?>" target="_blank">
                     <i class="fa fa-github"></i>
