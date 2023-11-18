@@ -147,17 +147,11 @@ $form->addInput($css->multiMode());
     $ico = new Typecho_Widget_Helper_Form_Element_Text('ico', NULL, NULL, _t('你的ico图标地址【必填】'), _t('在这里填入你的ICO图标地址，若没有你可以自行制作ico图标后放到站点根目录，在此处填入链接即可'));
     $form->addInput($ico);
 
-    $headervideo = new Typecho_Widget_Helper_Form_Element_Text('headervideo', NULL, NULL, _t('顶部背景视频地址'), _t('在这里填入视频地址url'));
-    $form->addInput($headervideo);
-
     $qqlink = new Typecho_Widget_Helper_Form_Element_Text('qqlink', NULL, NULL, _t('你的QQ联系地址'), _t('在这里填入QQ联系地址，不知道请到QQ推广里获取代码，其格式为（https://wpa.qq.com/msgrd?v=3&uin=你的QQ号&site=qq&menu=yes）'));
     $form->addInput($qqlink);
 	
     $mlink = new Typecho_Widget_Helper_Form_Element_Text('mlink', NULL, NULL, _t('你的联系邮箱'), _t('在这里填入你的邮箱联系地址,其格式为（mailto:admin@yiyeti.cc）'));
     $form->addInput($mlink);
-	
-    $wlink = new Typecho_Widget_Helper_Form_Element_Text('wlink', NULL, NULL, _t('你的联系微信'), _t('在这里填入你的微信联系地址'));
-    $form->addInput($wlink);
 	
     $glink = new Typecho_Widget_Helper_Form_Element_Text('glink', NULL, NULL, _t('你的github库'), _t('在这里填入你的github库地址'));
     $form->addInput($glink);
@@ -165,27 +159,16 @@ $form->addInput($css->multiMode());
     $musiclink = new Typecho_Widget_Helper_Form_Element_Text('musiclink', NULL, NULL, _t('你的音乐地址'), _t('在这里填入你的音乐地址'));
     $form->addInput($musiclink);
 
-    $videolink = new Typecho_Widget_Helper_Form_Element_Text('videolink', NULL, NULL, _t('你的视频地址'), _t('在这里填入你的视频地址'));
-    $form->addInput($videolink);
-
-    $txcps = new Typecho_Widget_Helper_Form_Element_Text('txcps', NULL, NULL, _t('你的腾讯云cps推广链接'), _t('在这里填入你的腾讯云cps推广链接'));
-    $form->addInput($txcps);
-
-    $qncps = new Typecho_Widget_Helper_Form_Element_Text('qncps', NULL, NULL, _t('你的七牛云cps推广链接'), _t('在这里填入你的七牛云cps推广链接'));
-    $form->addInput($qncps);
-	
-	$zddt = new Typecho_Widget_Helper_Form_Element_Text('zddt', NULL, NULL, _t('你的站点地图'), _t('在这里填入你的站点地图地址，若没有；请使用相关工具或插件生成'));
+    $zddt = new Typecho_Widget_Helper_Form_Element_Text('zddt', NULL, NULL, _t('你的站点地图'), _t('在这里填入你的站点地图地址，若没有；请使用相关工具或插件生成'));
     $form->addInput($zddt);
 	
-	$wzdt = new Typecho_Widget_Helper_Form_Element_Text('wzdt', NULL, NULL, _t('你的网站地图'), _t('在这里填入你的网站地图地址，若没有；请使用相关工具或插件生成'));
+    $wzdt = new Typecho_Widget_Helper_Form_Element_Text('wzdt', NULL, NULL, _t('你的网站地图'), _t('在这里填入你的网站地图地址，若没有；请使用相关工具或插件生成'));
     $form->addInput($wzdt);
 
     $wzdsw = new Typecho_Widget_Helper_Form_Element_Text('wzdsw', NULL, NULL, _t('你的打赏文案'), _t('在这里填入你的文章打赏文案，默认显示在打赏按钮上方'));
-    
     $form->addInput($wzdsw);
     
     $jrxq = new Typecho_Widget_Helper_Form_Element_Textarea('jrxq', NULL, NULL, _t('你的站点公告'), _t('在这里填入你的站点公告，默认弹窗显示在头像处，默认支持html'));
-    
     $form->addInput($jrxq);
 
     $wechat = new Typecho_Widget_Helper_Form_Element_Text('wechat', NULL, NULL, _t('你的微信链接'), _t('在这里填入你的微信打赏链接，默认显示在打赏按钮下方'));
