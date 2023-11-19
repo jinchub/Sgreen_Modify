@@ -2389,7 +2389,7 @@ tr {
         margin-left:10px;
     }
     .header-menu{
-        border-radius:10px;
+        border-radius:5px;
         backdrop-filter: blur(2px);
         background-position: 8% !important;
         background-attachment: fixed !important;
