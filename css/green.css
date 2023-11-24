@@ -28,7 +28,7 @@ html {
 }
 body {
     cursor: url(../img/cur/body.cur),auto;
-    font-family: PingFang SC,Hiragino Sans GB,STHeiti,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+    font-family: Misansdb,'Hiragino Sans GB','Microsoft Yahei',Arial,sans-serif;
     background-color: #f7f7f7;
     color: #333;
     font-size: 12px;
@@ -118,7 +118,6 @@ input:-ms-input-placeholder {
 code {
     font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
     font-size: 12px;
-    background: #ebeeef;
     border-radius: 4px;
     padding: 2px 6px;
 }
@@ -131,10 +130,9 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     white-space: pre-wrap;
-    background-color: rgb(241,241,241,0.45);
+    background-color: rgb(233,233,233,0.7);
     overflow: auto;
     border-radius: 6px;
-    border: 2px solid #f1f1f1;
     border-top: 26px solid #f1f1f1;
 }
 pre:before {
@@ -290,6 +288,7 @@ content .article {
 .siteurl{
     color: white;
     font-size:28px;
+    font-family:'MISANSDB';
 }
 .header-siteinfo:hover {
 }
@@ -418,6 +417,7 @@ content .article {
 #yhtoggleBtn{
     background: rgba(255, 255, 255,0.15);
     border: 0;
+    font-family: 'Misansdb';
     font-size: 12px;
     color: rgba(255,255,255,0.7);
     text-align: center;
@@ -431,6 +431,7 @@ content .article {
 #playButton{
     background: rgba(255, 255, 255,0.15);
     border: 0;
+    font-family: 'Misansdb';
     font-size: 12px;
     color: rgba(255,255,255,0.9);
     text-align: center;
@@ -522,10 +523,9 @@ audio::-ms-media-controls-enclosure {
         margin-left:20px;
     }
     ul li {
-
     }
     ul li a:hover {
-
+         text-decoration: underline;
     }
     nav ul {
         display: inline-block;
@@ -618,10 +618,7 @@ audio::-ms-media-controls-enclosure {
 .article-content ul{
     margin-bottom: 20px;
 }
-h3,h4{
-    color: black;
-    font-size: 16px;
-}
+
 .page-abouta a{
     text-decoration: revert;
     color:#919191;
@@ -952,6 +949,7 @@ footer a:hover {
     animation: ran 40s linear infinite;
     user-select: none;
     letter-spacing: 0.5px;
+    font-family: 'din','Misansdb';
 }
 /*当网页在Windows高对比度模式下显示时，将.fotba和.fotba>a元素的文字颜色设置为#dddddd（灰色）*/
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -1068,9 +1066,6 @@ footer a:hover {
 }
 .leave {
     padding-left: 14px;
-}
-.leave a {
-    margin-left:3px;
 }
 .read {
     padding-left: 18px;
@@ -1221,6 +1216,7 @@ footer a:hover {
     height: auto;
     max-height: 400px;
     color: #6f6f6f;
+    font-family: 'din';
     background: #f9f9f9;
     font-size: 12px;
     margin-left: 40px;
@@ -1271,6 +1267,10 @@ footer a:hover {
 }
 .comment-list li .comment-reply {
     font-size: 12px;
+    position: absolute;
+    right: 0;
+    margin-top: -24px;
+    margin-right:30px;
 }
 .comment-list li .comment-reply a {
     color: #cecece;
@@ -1592,6 +1592,7 @@ textarea.text-area {
 button,input,textarea {
     outline: 0;
     text-indent: 14px;
+    font-family: din,'Hiragino Sans GB','Microsoft Yahei';
     border: 1px solid #eaeaea;
     border-radius: 5px;
     padding: 4px 5px 5px 5px;
@@ -1724,6 +1725,10 @@ video {
     border-top-right-radius: 0px;
 }
 
+.duan_cu,.duan_cu_s,.duan_text,.duan_s,.duan_o,.duan {
+    font-family: din,'Hiragino Sans GB','Microsoft Yahei'
+}
+
 /*正文标题*/
 .duan {
     text-align: left;
@@ -1732,11 +1737,7 @@ video {
     color: #000000;
     margin: 20px 2px 5px 2px;
     padding: 6px 8px 6px 34px;
-    background: rgba(137, 137, 137,0.1);
     line-height: 20px;
-    /*border-left: 3px solid;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;*/
     max-width: 100%;
     letter-spacing: 0.5px;
     position:relative;
@@ -2389,7 +2390,7 @@ tr {
         margin-left:10px;
     }
     .header-menu{
-        border-radius:5px;
+        border-radius:10px;
         backdrop-filter: blur(2px);
         background-position: 8% !important;
         background-attachment: fixed !important;
