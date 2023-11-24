@@ -32,7 +32,7 @@ html.black .page-navigator a:hover{background:#555555;color:#ffffff;box-shadow: 
 html.black .page-navigator a{background:#393939;color:#7c7c7c}
 html.black blockquote{color:#b5b5b5;background:#3f3f3f;}
 html.black .article-title a{color:#c3c3c3;backdrop-filter:blur(4px);}
-html.black header{background: url(https://img.jinchuang.org/typecho/header/img/67.jpg) no-repeat center;background-size: cover;}
+html.black header{background: url(../img/dark.png) no-repeat center;background-size: cover;}
 html.black #vd{filter: brightness(0.8);}
 html.black .fotlink:hover{filter:drop-shadow(0px 2px 4px #000000);}
 html.black .fottb a{background:rgba(37,37,37,0.3);}
