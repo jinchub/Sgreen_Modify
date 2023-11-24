@@ -36,7 +36,6 @@
        
        <!--icon图标-->
        <link href="<?php $this->options->ico() ?>" rel="shortcut icon">
-       <!--<?php echo '<link href="/img/logo/'. $themes .'/favicon.ico" rel="shortcut icon">' ?>-->
        
        <!--jquery-->
        <script src="<?php $this->options->themeUrl('js/jquery.min.js'); ?>"></script>
@@ -213,7 +212,7 @@
                                         link.setAttribute('href', 'https://' + domain);
                                         link.classList.add('hactive');
                                     }
-                                    // 检查当前页面是否在下面的集合中
+                                    // 检查当前页面是否在下面的集合中(没有这个需求可以删掉下面的代码)
                                     var pages = [
                                         "https://" + domain + "/logo.html",
                                         "https://" + domain + "/tv.html",
@@ -223,7 +222,6 @@
                                         "https://" + domain + "/shuimo.html",
                                         "https://" + domain + "/touxiang.html"
                                     ];
-                                
                                     if (pages.includes(currentUrl)) {
                                         // 然后获取这个yule.html链接
                                         var menuLink = document.querySelector('a[href="https://' + domain + '/yule.html"]');
@@ -283,7 +281,7 @@
                         var music_name = ["1.mp3","2.mp3","3.mp3","4.mp3","5.mp3"];
                         var arr = music_name.map(function(name) {
                             //这里是歌曲目录列表url地址，然后拼接上面music_name列表中的歌曲名称
-                            return "https://xxx.com/mp3list/" + name;
+                            return "https://xxx.com/mp3list/ 或者 /mp3/list/ " + name;
                         });
                     
                         //监听页面第一次鼠标点击，自动播放歌曲

@@ -16,7 +16,7 @@
         <meta name="copyright" content="<?php $this->options->title() ?>" />
         <link rel="canonical" href="<?php $this->permalink() ?>" />
         <style type="text/css">
-            body {background:white fixed center;font-family: Microsoft Yahei,Verdana;font-size:1px;margin:0 auto;color: #000000;width:990px;margin: 0 auto}
+            body {background:white fixed center;font-family: Microsoft Yahei,Verdana;font-size:12px;margin:0 auto;color: #000000;width:990px;margin: 0 auto}
             a:link,a:visited {color:#3f748e;text-decoration:none;}
             a:hover {color:#08d;text-decoration:none;}
             h2{font-weight: bold;color: #009fd9;font-size: 25px;}

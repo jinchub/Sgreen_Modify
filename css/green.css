@@ -246,7 +246,7 @@ content .article {
     position: absolute;
     background: url(../img/header.jpg) no-repeat;
     background-size: cover;
-    background-position-y: 54%;
+    background-position-y: 52.5%;
     box-shadow: rgba(0,0,0,0.3) 0px 0px 20px 0px;
     opacity:0;
     transition: all ease 0.3s;
@@ -2389,7 +2389,7 @@ tr {
         margin-left:10px;
     }
     .header-menu{
-        border-radius:10px;
+        border-radius:5px;
         backdrop-filter: blur(2px);
         background-position: 8% !important;
         background-attachment: fixed !important;
