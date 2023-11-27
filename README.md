@@ -46,5 +46,5 @@
 
 #### 截图：
 
-![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot.jpg)
+![sgreen](https://github.com/jcorg/Sgreen_Modify/blob/master/screenshot.png)
 
