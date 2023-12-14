@@ -1,7 +1,7 @@
 img[data-action="zoom"] {
-	cursor: url(/img/zoom.cur),pointer;
-	cursor: url(/img/zoom.cur),-webkit-zoom-in;
-	cursor: url(/img/zoom.cur),-moz-zoom-in;
+	cursor: pointer;
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
 	border-radius:5px;
 }
 
@@ -16,9 +16,9 @@ img[data-action="zoom"] {
 }
 
 img.zoom-img {
-	cursor: url(/img/zoom.cur),pointer;
-	cursor: url(/img/zoom.cur),-webkit-zoom-out;
-	cursor: url(/img/zoom.cur),-moz-zoom-out;
+	cursor: pointer;
+	cursor: -webkit-zoom-out;
+	cursor: -moz-zoom-out;
 	border: 1px solid #dedede;
 }
 
@@ -45,5 +45,5 @@ img.zoom-img {
 
 .zoom-overlay-open,
 .zoom-overlay-transitioning {
-	cursor: url(/img/zoom.cur),default;
+	cursor: default;
 }
